@@ -27,10 +27,9 @@ name="RonwellTaskRepository">
 			id="194f6640-d002-4bde-ba51-95a0ec42ccf1"
 			name="LoginEmail"
 			refimgid="9b26f3f3-36ff-484f-a6ac-14d66c666ef2"
-			refpath="/dom[@domain='www.trendyol.com']//input[#'login-email']"
 			robustPath="/dom[@domain='www.trendyol.com']//input[#'login-email']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//input[#'login-email']
+				/dom[@domain='    www.trendyol.com']//input[#'login-email']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -38,10 +37,9 @@ name="RonwellTaskRepository">
 			id="02f19a24-5ac6-4561-b5cd-9709a4a683cb"
 			name="LoginPasswordInput"
 			refimgid="eaf0fab0-1be9-4f1c-b332-5120e54f897b"
-			refpath="/dom[@domain='www.trendyol.com']//input[#'login-password-input']"
 			robustPath="/dom[@domain='www.trendyol.com']//input[#'login-password-input']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//input[#'login-password-input']
+				/dom[@domain='    www.trendyol.com']//input[#'login-password-input']
 			</item>
 			<folder
 			addcaps="unknown,webelement,divtag"
@@ -49,7 +47,6 @@ name="RonwellTaskRepository">
 			id="c09b1614-3e04-4fb1-9c9d-92d7db1f9f2b"
 			isrooted="True"
 			name="LoginRegister"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'login-register']"
 			searchtimeout="30000ms"
 			usecache="False">
 				<item
@@ -58,21 +55,9 @@ name="RonwellTaskRepository">
 				id="ebb0076f-8fc8-4517-8c22-aed06e632f1b"
 				name="QButtonQButtonMediumQFluidQPrima"
 				refimgid="f5971b52-feda-4cc1-8180-4e052b246358"
-				refpath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/div[1]/form[@action='https://www.trendyol.com/giris?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button"
 				robustPath="/dom[@domain='www.trendyol.com']//div[#'login-register']//form/button"
 				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/giris?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button
-				</item>
-				<item
-				addcaps="unknown,webelement,divtag"
-				capname="divtag"
-				id="1a6c5cef-7f78-4712-ab73-e2085c675fad"
-				name="LrTitle"
-				refimgid="e773de5a-b288-4776-9c33-8fa03821bf40"
-				refpath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[1]"
-				robustPath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[1]"
-				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[#'login-register']/div[1]
+					/dom[@domain='    www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/giris?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button
 				</item>
 				<item
 				addcaps="button,webelement,buttontag"
@@ -80,10 +65,9 @@ name="RonwellTaskRepository">
 				id="19cfa1e9-2610-459f-ba7f-b8fd78a7f459"
 				name="ButtonQButtonQButtonMediumQSecond"
 				refimgid="b3a13718-d125-4d20-9667-a26771e5af41"
-				refpath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[2]/div/button[2]"
 				robustPath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[2]/div/button[2]"
 				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[#'login-register']/div[2]/div/button[2]
+					/dom[@domain='    www.trendyol.com']//div[#'login-register']/div[2]/div/button[2]
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
@@ -91,10 +75,9 @@ name="RonwellTaskRepository">
 				id="bbdee348-37f4-4fbb-a9a7-28dd89493408"
 				name="LrContainer"
 				refimgid="f3205baa-9d35-4af4-80cc-7d9b9c0a0e5a"
-				refpath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]"
 				robustPath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]"
 				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]
+					/dom[@domain='    www.trendyol.com']//div[#'login-register']/div[3]
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
@@ -102,13 +85,22 @@ name="RonwellTaskRepository">
 				id="8cf1c64a-c897-4d33-9615-0e1e028f6f49"
 				name="SocialAccountLoginButtons"
 				refimgid="3d6460bd-48a4-4765-8a76-ad95dfe679be"
-				refpath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/div[2]"
 				robustPath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/div[2]"
 				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/div[2]
+					/dom[@domain='    www.trendyol.com']//div[#'login-register']/div[3]/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="2a619a08-891d-48bb-b06b-f2d98f7699dd"
+				name="LrTitle"
+				refimgid="913f6d1f-c85a-43e2-8eb2-05805a4054f3"
+				robustPath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='    www.trendyol.com']//div[#'login-register']/div[1]
 				</item>
 				<basepath>
-					/dom[@domain='www.trendyol.com']//div[#'login-register']
+					/dom[@domain='    www.trendyol.com']//div[#'login-register']
 				</basepath>
 			</folder>
 			<item
@@ -117,10 +109,9 @@ name="RonwellTaskRepository">
 			id="912f56e3-7f2a-49bd-9386-875ece78ba8c"
 			name="Container"
 			refimgid="d73a642b-8695-442e-90e1-cc480745a490"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'container']"
 			robustPath="/dom[@domain='www.trendyol.com']//div[#'container']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'container']
+				/dom[@domain='    www.trendyol.com']//div[#'container']
 			</item>
 			<item
 			addcaps="unknown,webelement,imgtag"
@@ -128,10 +119,9 @@ name="RonwellTaskRepository">
 			id="7d7f66b4-4955-4c84-aa96-a0d94573397c"
 			name="HttpsCdnDsmcdnComMnresize200200"
 			refimgid="a0ae7aa9-32fa-44aa-919d-3cb3299ca069"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'browsing-gw-homepage']/div/div/div/article[1]/div/div/div[2]/a[1]/img[@src='https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2022/3/9/Top_Widget_202203091801.png']"
 			robustPath="/dom[@domain='www.trendyol.com']//div[#'browsing-gw-homepage']//img[@src='https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2022/3/9/Top_Widget_202203091801.png']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'browsing-gw-homepage']/div/div/div/article[1]/div/div/div[2]/a[1]/img[@src='https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2022/3/9/Top_Widget_202203091801.png']
+				/dom[@domain='    www.trendyol.com']//div[#'browsing-gw-homepage']/div/div/div/article[1]/div/div/div[2]/a[1]/img[@src='https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2022/3/9/Top_Widget_202203091801.png']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -139,10 +129,9 @@ name="RonwellTaskRepository">
 			id="ecfcf7ce-b259-48e2-9f7b-0172620a2fdf"
 			name="SepeteEkle"
 			refimgid="d4518b5c-757e-4d6d-a46d-b92294fa1a1c"
-			refpath="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[7]/button/div[@innertext='Sepete Ekle']"
 			robustPath="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']//div[@innertext='Sepete Ekle']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[7]/button/div[@innertext='Sepete Ekle']
+				/dom[@domain='    www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[7]/button/div[@innertext='Sepete Ekle']
 			</item>
 			<item
 			addcaps="unknown,webelement,imgtag"
@@ -150,10 +139,9 @@ name="RonwellTaskRepository">
 			id="feb0d9ca-79b1-447f-ba84-62c1b6aafbd3"
 			name="HttpsCdnDsmcdnComTy335ProductMe"
 			refimgid="30ce4a20-4b74-41ea-82d2-253ae48c432c"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'account-gw-just-for-you']/div/div/div/div[2]/a/img[@src='https://cdn.dsmcdn.com//ty335/product/media/images/20220218/13/53030145/116829745/1/1_org.jpg']"
 			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-gw-just-for-you']//img[@src='https://cdn.dsmcdn.com//ty335/product/media/images/20220218/13/53030145/116829745/1/1_org.jpg']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-gw-just-for-you']/div/div/div/div[2]/a[@href&gt;'https://www.trendyol.com/']/img[@src='https://cdn.dsmcdn.com//ty335/product/media/images/20220218/13/53030145/116829745/1/1_org.jpg']
+				/dom[@domain='&#8202;&#8202;&#8202;&#8202;www.trendyol.com']//div[#'account-gw-just-for-you']/div/div/div/div[2]/a[@href&gt;'https://www.trendyol.com/']/img[@src='https://cdn.dsmcdn.com//ty335/product/media/images/20220218/13/53030145/116829745/1/1_org.jpg']
 			</item>
 			<item
 			addcaps="unknown,webelement,ptag"
@@ -161,10 +149,9 @@ name="RonwellTaskRepository">
 			id="7c4d1e9f-539a-493b-a953-54c272c8f1d2"
 			name="Sepetim"
 			refimgid="f179aba2-10a2-42cc-924f-d94fff68ed27"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a/p[@innertext='Sepetim']"
 			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Sepetim']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href&gt;'https://www.trendyol.com/']/p[@innertext='Sepetim']
+				/dom[@domain='&#8202;&#8202;&#8202;&#8202;www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href&gt;'https://www.trendyol.com/']/p[@innertext='Sepetim']
 			</item>
 			<folder
 			addcaps="unknown,webelement,divtag"
@@ -172,7 +159,6 @@ name="RonwellTaskRepository">
 			id="c8f40d99-e09b-4bc4-ae56-9d08a478505e"
 			isrooted="True"
 			name="PbWrapper1"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/div"
 			searchtimeout="30000ms"
 			usecache="False">
 				<item
@@ -181,10 +167,9 @@ name="RonwellTaskRepository">
 				id="7c1bcd6c-3a03-4aab-a061-819e3ed0956f"
 				name="PbWrapper"
 				refimgid="456627d7-3a1c-40df-bda5-f0ca2cb669dd"
-				refpath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/div"
 				robustPath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/div"
 				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[#'pb-container']/div
+					/dom[@domain='    www.trendyol.com']//div[#'pb-container']/div
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
@@ -192,10 +177,9 @@ name="RonwellTaskRepository">
 				id="228d1912-7d35-4460-a2f6-3ecce5ea8c3e"
 				name="PbBasketItem"
 				refimgid="9f1dc972-9b70-40b6-89e4-698313d1f8fa"
-				refpath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/div/div[3]/div[3]"
 				robustPath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/div/div[3]/div[3]"
 				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[#'pb-container']/div/div[3]/div[3]
+					/dom[@domain='    www.trendyol.com']//div[#'pb-container']/div/div[3]/div[3]
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
@@ -203,13 +187,12 @@ name="RonwellTaskRepository">
 				id="bd4b547d-dc4b-4e62-88cd-6df789659d25"
 				name="PbBasketItem1"
 				refimgid="85a84a6a-dca2-4c86-a89e-fc1ce51a2b98"
-				refpath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/div/div[4]/div[2]"
 				robustPath="/dom[@domain='www.trendyol.com']//div[#'pb-container']/div/div[4]/div[2]"
 				searchtimeout="30000ms">
-					/dom[@domain='www.trendyol.com']//div[#'pb-container']/div/div[4]/div[2]
+					/dom[@domain='    www.trendyol.com']//div[#'pb-container']/div/div[4]/div[2]
 				</item>
 				<basepath>
-					/dom[@domain='www.trendyol.com']//div[#'pb-container']/div
+					/dom[@domain='    www.trendyol.com']//div[#'pb-container']/div
 				</basepath>
 			</folder>
 			<item
@@ -217,21 +200,9 @@ name="RonwellTaskRepository">
 			capname="imgtag"
 			id="733c9ca7-9f90-46ff-9afc-8a4c769b27c8"
 			name="SomeImgTag"
-			refpath="/dom[@domain='www.trendyol.com']/body/div/div/div/div/div/div/div/a/img"
 			robustPath="/dom[@domain='www.trendyol.com']/body/div/div/div/div/div/div/div/a/img"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']/body/div/div/div//img
-			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="b749ad8b-16a0-47b2-989f-53c6cecb72c5"
-			name="AccountUserLink"
-			refimgid="87adc6d6-8b14-40e4-9488-d602e5ff3f44"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]
+				/dom[@domain='    www.trendyol.com']/body/div/div/div//img
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -239,13 +210,12 @@ name="RonwellTaskRepository">
 			id="bb34690f-5476-4814-9142-dc8b6358cb8b"
 			name="UEyeOl"
 			refimgid="91863c8e-2894-4d78-bdf5-e11e1262f7a2"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/div[@innertext='Üye Ol']"
 			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//div[@innertext='Üye Ol']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']
+				/dom[@domain='    www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']
 			</item>
 			<basepath>
-				/dom[@domain='www.trendyol.com']
+				/dom[@domain='    www.trendyol.com']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
@@ -483,6 +453,193 @@ KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
 			searchtimeout="30000ms">
 				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[3]
 			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="8e412e8c-c3fe-4604-a00f-cfb4c9b4e244"
+			name="Grouping3"
+			refimgid="f2e705eb-8b8a-4d09-9725-77bf1e5d3f2e"
+			refpath="/form[@title='En Trend Ürünler Türkiye''nin Online Alışveriş Sitesi Trendyol''da - Google Chrome']/element[@automationid='227335872']/container[@accessiblename='En Trend Ürünler Türkiye''nin Online Alışveriş Sitesi Trendyol''da']/container[1]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/container[@accessiblerole='Grouping']/container[1]/container[@accessiblerole='Grouping']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/container[@accessiblerole='Grouping']/container[1]/container[@accessiblerole='Grouping']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[@automationid='227335872']/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]/container/container[1]/container[@accessiblerole='Grouping']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="2dcafff3-47ec-43a0-ab24-9e590106a023"
+			name="Grouping4"
+			refimgid="6e0bb310-8a79-451b-94c0-3ab903961fc5"
+			refpath="/form[@title='En Trend Ürünler Türkiye''nin Online Alışveriş Sitesi Trendyol''da - Google Chrome']/element[@automationid='318069184']/container[@accessiblename='En Trend Ürünler Türkiye''nin Online Alışveriş Sitesi Trendyol''da']/container[1]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/container[@accessiblerole='Grouping']/container[1]/container[@accessiblerole='Grouping']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/container[@accessiblerole='Grouping']/container[1]/container[@accessiblerole='Grouping']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[@automationid='318069184']/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]/container/container[1]/container[@accessiblerole='Grouping']
+			</item>
+			<item
+			addcaps="picture,accessible"
+			capname="picture"
+			id="5138f8da-d8b0-449e-bd16-2d68c1439ae3"
+			name="Graphic"
+			refimgid="265bbd11-324a-4fbf-b395-d9c2fb3963bc"
+			refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/element/container/container[1]/container[3]/container[6]/container[2]/container[2]/container[@accessiblename='League Of Legends 850 Rp']/link/container[1]/picture[@accessiblerole='Graphic']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//link[@accessiblename>'Riot GamesLeague Of Legends']/container[1]/picture[@accessiblerole='Graphic']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[3]/container[6]//container[@accessiblename='League Of Legends 850 Rp']/link[@accessiblename&gt;'Riot GamesLeague Of Legends']/?/?/picture[@accessiblerole='Graphic']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="d7251659-6969-4e4f-8c82-2bb4bbe40836"
+			name="None"
+			refimgid="eef0743a-828b-48cf-80a6-6a3aca69c141"
+			refpath="/form[@title>'Riot Games League Of Legends']/element/container/container/container/container"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//container"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[@automationid='227139136']/container/?/?/container/container
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="cbaf1741-c7b4-4e30-bf03-7a148e7c3eec"
+			name="Back1"
+			refimgid="8e627877-026f-41f2-aa6c-e6db5ab895f9"
+			refpath="/form[@title>'Riot Games League Of Legends']/container/container/container/container[2]/container[1]/toolbar/button[@accessiblename='Back']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//button[@accessiblename='Back']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[@accessiblename&gt;'Riot Games League Of Legends']/container[@accessiblename='Google Chrome']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Back']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="9096f501-4015-4473-a8e5-1dcdcc745ff0"
+			name="Grouping5"
+			refimgid="d64ddbd6-92f4-46e8-857b-f1c3919511aa"
+			refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/element/container/container[1]/container[3]/container[6]/container[2]/container[2]/container[@accessiblename>'Extra Günlük Aktivite Ultra']/link/container[1]/container/container[2]"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//link[@accessiblename>'KARGO BEDAVA SleepyExtra Günlük']/container[1]/container[@accessiblerole='Grouping']/container[2]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[3]/container[6]//container[@accessiblename&gt;'Extra G&#252;nl&#252;k Aktivite Ultra']/link[@accessiblename&gt;'KARGO BEDAVA SleepyExtra G&#252;nl&#252;k']/container[1]/container[@accessiblerole='Grouping']/container[2]
+			</item>
+			<item
+			addcaps="link,accessible"
+			capname="link"
+			id="b9634731-9a67-44e5-a0a0-db7b43f7955c"
+			name="LinkSepetim2"
+			refimgid="1cb7cd05-e2be-40c7-8c93-eeab2c4b560d"
+			refpath="/form[@title>'Sleepy Extra Günlük Aktivite']/element/container/container[1]/container[1]/container/container/container[2]/container/container[2]/link[@accessiblename='  Sepetim 2']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//link[@accessiblename='  Sepetim 2']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[@automationid='227139136']/container[@accessiblename&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='&#59648; &#59736; Sepetim 2']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="500d4c1a-951e-41cf-b29e-49f34563148d"
+			name="Grouping6"
+			refimgid="e281224c-8927-45e3-89be-5da8341c46b7"
+			refpath="/form[@title='Sepetim - Trendyol - Google Chrome']/element[@automationid='227139136']/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="42ea33c3-a009-4aa8-930d-cff5e61cbc92"
+			name="Grouping7"
+			refimgid="527e0013-607f-4e24-b90d-6f23442e168b"
+			refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/element/container/container[1]/container[3]/container[6]/container[2]/container[2]/container[@accessiblename='League Of Legends 850 Rp']/link/container[1]/container/container[@accessiblerole='Grouping']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//link[@accessiblename>'Riot GamesLeague Of Legends']/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[3]/container[6]//container[@accessiblename='League Of Legends 850 Rp']/link[@accessiblename&gt;'Riot GamesLeague Of Legends']/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="0e0a7aae-2747-494d-b0eb-92c8e0836ff3"
+			name="Grouping8"
+			refimgid="cf6ff62c-5f71-497e-90fb-7d68cfc08f8d"
+			refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/element/container/container[1]/container[3]/container[6]/container[2]/container[2]/container[@accessiblename>'Extra Günlük Aktivite Ultra']/link/container[1]/container[@accessiblerole='Grouping']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//link[@accessiblename>'KARGO BEDAVA SleepyExtra Günlük']/container[1]/container[@accessiblerole='Grouping']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/?/?/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[3]/container[6]//container[@accessiblename&gt;'Extra G&#252;nl&#252;k Aktivite Ultra']/link[@accessiblename&gt;'KARGO BEDAVA SleepyExtra G&#252;nl&#252;k']/container[1]/container[@accessiblerole='Grouping']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="63027be6-68a6-457f-b173-b899456653c1"
+			name="Grouping9"
+			refimgid="8a98a857-eac9-4740-be64-b4253a0d5bd8"
+			refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/element/container/container[1]/container[1]/container/container/container[2]/container/link/container[@accessiblerole='Grouping']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//link[@accessiblename='  Favorilerim']/container[@accessiblerole='Grouping']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[@automationid='147664064']/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[1]//link[@accessiblename='&#59649; &#59750; Favorilerim']/container[@accessiblerole='Grouping']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="3213e58c-6765-4ade-9ea8-b2660189f37a"
+			name="Grouping10"
+			refimgid="a6f55e15-c09a-4648-8aef-4b3365ba2cac"
+			refpath="/form[@title='Favoriler - Trendyol - Google Chrome']/element[@automationid='147664064']/container[@accessiblename='Favoriler - Trendyol']/container[@accessiblerole='Grouping']/container[1]/container[3]/container[6]"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//container[@accessiblerole='Grouping']/container[1]/container[3]/container[6]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]
+			</item>
+			<item
+			addcaps="link,accessible"
+			capname="link"
+			id="1a699738-9513-49d3-a2fa-bdcb98a24e7f"
+			name="LinkSepetim21"
+			refimgid="a0eb346c-b1e4-4e69-91e9-8d672afbd4be"
+			refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/element/container/container[1]/container[1]/container/container/container[2]/container/container[2]/link[@accessiblename='  Sepetim 2']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//link[@accessiblename='  Sepetim 2']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[@automationid='200849408']/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='&#59648; &#59736; Sepetim 2']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="ba492087-3dc0-46be-9f92-f2d9622a13c6"
+			name="None1"
+			refimgid="9e3a7583-6c96-4afe-8f9a-686132582f7a"
+			refpath="/form[@title>'Sepetim - Trendyol - Google']/element/container/container"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//container"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/?/?/container/container
+			</item>
+			<item
+			addcaps="link,accessible"
+			capname="link"
+			id="4582e2ca-45e2-45da-8d8a-5a2ca213ed18"
+			name="None2"
+			refimgid="7b6ed3de-f7b5-42fe-9832-f08a9166210b"
+			refpath="/form[@title>'Ödeme - Trendyol - Google']/element/container/container/container/container/container/link"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//link"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[@automationid='200849408']/container/container//link
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="08bdafb2-93df-4c73-8302-faeb4df41635"
+			name="OEdemeYap"
+			refimgid="89312c5a-d3b2-44c3-a657-b6c9bd3b3235"
+			refpath="/form[@title='Ödeme - Trendyol - Google Chrome']/element[@automationid='200849408']/container[@accessiblename='Ödeme - Trendyol']/container[@accessiblerole='Grouping']/container[1]/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Ödeme Yap']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//container[@accessiblerole='Grouping']/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Ödeme Yap']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/?/?/container[@accessiblename='&#214;deme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='&#214;deme Yap']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="236d0753-2fc6-4f4b-a0b4-4e36312eb90a"
+			name="Grouping11"
+			refimgid="f800946d-f8d8-486e-b192-a1bbf5599ae2"
+			refpath="/form[@title='En Trend Ürünler Türkiye''nin Online Alışveriş Sitesi Trendyol''da - Google Chrome']/element[@automationid='200849408']/container[@accessiblename='En Trend Ürünler Türkiye''nin Online Alışveriş Sitesi Trendyol''da']/container[1]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/container[@accessiblerole='Grouping']/container[1]/container[@accessiblerole='Grouping']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/container[@accessiblerole='Grouping']/container[1]/container[@accessiblerole='Grouping']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[@automationid='200849408']/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]/container/container[1]/container[@accessiblerole='Grouping']
+			</item>
 			<basepath>
 				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']
 			</basepath>
@@ -665,6 +822,17 @@ KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
 			searchtimeout="30000ms">
 				/form[@title&gt;'https://www.trendyol.com/']/container[@accessiblename&gt;'https://www.trendyol.com/']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/button[@accessiblename='Back']
 			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="6d39b574-4b21-4765-b07b-9f6f65b84ec8"
+			name="Grouping3"
+			refimgid="ef068cb8-4d2c-4fc1-b331-b70e8ecd4e83"
+			refpath="/form[@title='https://www.trendyol.com/giris?cb=https%3A%2F%2Fwww.trendyol.com%2F - Google Chrome']/element[@automationid='147667136']/container[@accessiblerole='Document']/container[1]/container[3]"
+			robustPath="/form[@title>'https://www.trendyol.com/']/element/container[@accessiblerole='Document']/container[1]/container[3]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'https://www.trendyol.com/']/element/container[@accessiblerole='Document']/container[1]/container[3]
+			</item>
 			<basepath>
 				/form[@title&gt;'https://www.trendyol.com/']
 			</basepath>
@@ -701,6 +869,7 @@ KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
 		id="1171294e-7dde-4fa0-975e-c625dc7ac3a4"
 		isrooted="True"
 		name="ErkekButikleriYeniSezonUEruenler"
+		refimgid="aa8fc075-cbc7-4d3e-a846-f48c5b0aba4b"
 		refpath="/form[@title='Erkek Butikleri, Yeni Sezon Ürünler - Trendyol - Google Chrome']"
 		searchtimeout="30000ms"
 		usecache="True">
@@ -845,6 +1014,28 @@ KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
 				searchtimeout="30000ms">
 					/form[@title&gt;'Erkek Butikleri, Yeni Sezon']/?/?/container[@accessiblerole='Document']/container[1]/container[3]/container[2]/container[2]/link[@accessiblename&gt;'HIZLI TESL&#304;MAT KARGO BEDAVA']/picture[@accessiblerole='Graphic']
 				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="32e9fcd4-3942-4419-9cf9-57f4772ff808"
+				name="Hesabım"
+				refimgid="2cbebac3-219a-4028-90b4-33f52da20b34"
+				refpath="/form[@title='Erkek Butikleri, Yeni Sezon Ürünler - Trendyol - Google Chrome']/element[@automationid='200849408']/container[@accessiblename='Erkek Butikleri, Yeni Sezon Ürünler - Trendyol']/container[1]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/container[@accessiblerole='Grouping']/container[1]/container[@accessiblerole='Grouping']/container[2]/text[@accessiblename='Hesabım']"
+				robustPath="/form[@title>'Erkek Butikleri, Yeni Sezon']/?/?/container[@accessiblerole='Document']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Erkek Butikleri, Yeni Sezon']/?/?/container[@accessiblerole='Document']/container[1]/container/container[@accessiblerole='Grouping']/container[2]/container/container[1]//text[@accessiblename='Hesab&#305;m']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="6dc44b6b-4e99-4418-bd33-2c0e7bfe41eb"
+				name="SelectAnElementInThePageToInspect"
+				refimgid="d2fb4605-2008-4e19-98ea-f6ce19ac4b5c"
+				refpath="/form[@title>'Erkek Butikleri, Yeni Sezon']/element[@automationid='338844416']/container/container/container/container/container/container[2]/container/container/container/container/container/container/container[@accessiblename='Main toolbar']/container[1]/button[@accessiblename>'Select an element in the page']"
+				robustPath="/form[@title>'Erkek Butikleri, Yeni Sezon']/?/?/container[@accessiblerole='Document']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'Erkek Butikleri, Yeni Sezon']/?/?/container[@accessiblerole='Document']/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container/container[@accessiblerole='Grouping']/container[2]//container[@accessiblename='Main toolbar']/container[1]/button[@accessiblename&gt;'Select an element in the page']
+				</item>
 				<basepath>
 					/form[@title&gt;'Erkek Butikleri, Yeni Sezon']/?/?/container[@accessiblerole='Document']
 				</basepath>
@@ -941,6 +1132,161 @@ KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
 			</item>
 			<basepath>
 				/form[@title&gt;'Erkek Butikleri, Yeni Sezon']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJxSURBVDhPrdJbSBRhGAbg/6rAAhcKkjDdNbY8
+tM6saxelzo5b2cEOeF8sIdFFiF6EF1mtSBIJJpuh5aEVO4MUdLiqdT0LWcxNWRC5kae1cmc9BLoz
+O2/fbANieOkHD+/AfO8wM/xs3Sfo5Ew/XbmeGZcjOOPKhS7kckgh0eGbdnJmY23tmRH3ukOFDplg
+WtTlaFTElNOuTQp2bVqwh0MCX26srx79Bi3qy5gS7JgUeEJZwGOigNMm8vUk+Rwm8mxuo/ZvON8p
+85eDOTIt0CKHcfKrrBQRbx3mWuoQuVGMSI0d4Wpek0mklpchcSajzpj9YUlHXYWIH3nZcZG2JgQ+
+R3HxyR+c9y3ipRRFbPwO1GEeyjBHySE6lO0x6oxld56U8tpO4F0RvWJJkfZCWobjaoTIcTmkezQK
+9aObyllQhzJJxphRZ8zWcVwjOOdxYbb+OkrbF8BfCRPZyDAqHi0iNlYLZXAXlAGrpgxaYdQZy7pX
+jKz2Yzot8LgB5Q8WsKdqFraqMGyXCeXZtnnEvtVAHUgjFqj9lpUHZLQeDWa0HgEl3K8q4R9dRual
+WcPveD7/sAR1ZB8Vd8QpfcmSUWcsvaXIk373MHS7SeNIJ569X8KZ1jlc6JzH20/LGP/qhdKbZNiG
+WF+Sz6gzltrgNFmbDskE1mZCKd4/jWv9TXGVr8vw/c12KD1b46I9W2QEElefyrRG0b3z9gGNQJfW
+6NJ0+nV7F/24gMmQCLXHtPZpTPU6Kyy3CmWzV4TFWwg985v3Q+neDMW/SYv6E2S1O2H1Kfx/6HPM
+KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="fe045fcb-6f2a-4d6d-a79d-4ea6d5d7ad71"
+		isrooted="True"
+		name="SleepyExtraGuenluekAktiviteUltraPak"
+		refpath="/form[@title='Sleepy Extra Günlük Aktivite Ultra Paket Bebek Bezi 5 Numara Junior 160 Adet Fiyatı, Yorumları - TRENDYOL - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b51e1f53-f8a7-4a7a-984b-540595513cc8"
+			name="SepeteEkle"
+			refimgid="fc395ce5-33cf-4893-acb6-d5db43c000e7"
+			refpath="/form[@title>'Sleepy Extra Günlük Aktivite']/element/container/container[1]/container[4]/button[@accessiblename='Sepete Ekle']"
+			robustPath="/form[@title>'Sleepy Extra Günlük Aktivite']//button[@accessiblename='Sepete Ekle']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/?/?/container[@accessiblename&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/container[1]/container[4]/button[@accessiblename='Sepete Ekle']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="880faa0b-daa7-46ff-9382-9c455da70f22"
+			name="SepeteEkle1"
+			refimgid="f514b06b-52a7-458a-9134-ec3b5f2eecc1"
+			refpath="/form[@title>'Riot Games League Of Legends']/element/container/container[1]/container[4]/button[@accessiblename='Sepete Ekle']"
+			robustPath="/form[@title>'Sleepy Extra Günlük Aktivite']//button[@accessiblename='Sepete Ekle']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/?/?/container[@accessiblename&gt;'Riot Games League Of Legends']/container[1]/container[4]/button[@accessiblename='Sepete Ekle']
+			</item>
+			<item
+			addcaps="link,accessible"
+			capname="link"
+			id="384aa77e-f4fd-4d4e-a8e0-80ee65d38bde"
+			name="LinkSepetim3"
+			refimgid="59c8055f-5384-4436-b0ef-9284ed8de0ca"
+			refpath="/form[@title>'Sleepy Extra Günlük Aktivite']/element/container/container[1]/container[1]/container/container/container[2]/container/container[2]/link[@accessiblename='  Sepetim 3']"
+			robustPath="/form[@title>'Sleepy Extra Günlük Aktivite']//link[@accessiblename='  Sepetim 3']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/element[@automationid='73610112']/container[@accessiblename&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='&#59648; &#59736; Sepetim 3']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="7a1c9e33-5a6a-4d81-bc42-53ec68e16b39"
+			name="Grouping"
+			refimgid="2af7d45a-c202-447a-b209-c7447eb17f64"
+			refpath="/form[@title='Sepetim - Trendyol - Google Chrome']/element[@automationid='73610112']/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']"
+			robustPath="/form[@title>'Sleepy Extra Günlük Aktivite']/?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']
+			</item>
+			<item
+			addcaps="link,accessible"
+			capname="link"
+			id="bc45fe72-5e7e-41c0-baf8-96c8abddffa4"
+			name="LinkSepetim2"
+			refimgid="b8702e48-9631-46ba-a461-f96de46c8105"
+			refpath="/form[@title='Sleepy Extra Günlük Aktivite Ultra Paket Bebek Bezi 5 Numara Junior 160 Adet Fiyatı, Yorumları - TRENDYOL - Google Chrome']/element[@automationid='73610112']/container[@accessiblename='Sleepy Extra Günlük Aktivite Ultra Paket Bebek Bezi 5 Numara Junior 160 Adet Fiyatı, Yorumları - TRENDYOL']/container[1]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/container[@accessiblerole='Grouping']/container[2]/link[@accessiblename='  Sepetim 2']"
+			robustPath="/form[@title>'Sleepy Extra Günlük Aktivite']//link[@accessiblename='  Sepetim 2']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/element[@automationid='73610112']/container[@accessiblename&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='&#59648; &#59736; Sepetim 2']
+			</item>
+			<basepath>
+				/form[@title&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJxSURBVDhPrdJbSBRhGAbg/6rAAhcKkjDdNbY8
+tM6saxelzo5b2cEOeF8sIdFFiF6EF1mtSBIJJpuh5aEVO4MUdLiqdT0LWcxNWRC5kae1cmc9BLoz
+O2/fbANieOkHD+/AfO8wM/xs3Sfo5Ew/XbmeGZcjOOPKhS7kckgh0eGbdnJmY23tmRH3ukOFDplg
+WtTlaFTElNOuTQp2bVqwh0MCX26srx79Bi3qy5gS7JgUeEJZwGOigNMm8vUk+Rwm8mxuo/ZvON8p
+85eDOTIt0CKHcfKrrBQRbx3mWuoQuVGMSI0d4Wpek0mklpchcSajzpj9YUlHXYWIH3nZcZG2JgQ+
+R3HxyR+c9y3ipRRFbPwO1GEeyjBHySE6lO0x6oxld56U8tpO4F0RvWJJkfZCWobjaoTIcTmkezQK
+9aObyllQhzJJxphRZ8zWcVwjOOdxYbb+OkrbF8BfCRPZyDAqHi0iNlYLZXAXlAGrpgxaYdQZy7pX
+jKz2Yzot8LgB5Q8WsKdqFraqMGyXCeXZtnnEvtVAHUgjFqj9lpUHZLQeDWa0HgEl3K8q4R9dRual
+WcPveD7/sAR1ZB8Vd8QpfcmSUWcsvaXIk373MHS7SeNIJ569X8KZ1jlc6JzH20/LGP/qhdKbZNiG
+WF+Sz6gzltrgNFmbDskE1mZCKd4/jWv9TXGVr8vw/c12KD1b46I9W2QEElefyrRG0b3z9gGNQJfW
+6NJ0+nV7F/24gMmQCLXHtPZpTPU6Kyy3CmWzV4TFWwg985v3Q+neDMW/SYv6E2S1O2H1Kfx/6HPM
+KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="1bb18d6e-486b-4c35-af4a-2bfae6d49bfa"
+		isrooted="True"
+		name="FavorilerTrendyolGoogleChrome"
+		refpath="/form[@title='Favoriler - Trendyol - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="28759519-81e1-4b23-bb3a-f0d05c6479fc"
+			name="Grouping"
+			refimgid="290f6719-5da1-41a9-909f-539db6fb3ccb"
+			refpath="/form[@title='Favoriler - Trendyol - Google Chrome']/element[@automationid='50088064']/container[@accessiblename='Favoriler - Trendyol']/container[@accessiblerole='Grouping']/container[1]/container[3]"
+			robustPath="/form[@title>'Favoriler - Trendyol - Google']//container[@accessiblerole='Grouping']/container[1]/container[3]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Favoriler - Trendyol - Google']/element[@automationid='50088064']/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="9344f9ca-10e2-4af8-98a4-ebf7e2699802"
+			name="Pane"
+			refimgid="b3fa65cd-836e-4979-9542-6d99c9fb38d7"
+			refpath="/form[@title>'Favoriler - Trendyol - Google']/container/container/container/container[2]/container[1]"
+			robustPath="/form[@title>'Favoriler - Trendyol - Google']/?/?/container[@accessiblename='Google Chrome']/container[@accessiblerole='Pane']/container[2]/container[1]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Favoriler - Trendyol - Google']/container[@accessiblename&gt;'Favoriler - Trendyol - Google']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="d2d4a205-9594-48f1-aef8-878ded4372bf"
+			name="Grouping1"
+			refimgid="334225b6-5291-4a81-a7e3-471014616325"
+			refpath="/form[@title='Favoriler - Trendyol - Google Chrome']/element[@automationid='224663872']/container[@accessiblename='Favoriler - Trendyol']/container[@accessiblerole='Grouping']/container[1]/container[3]/container[6]/container[1]/link[@accessiblename='Riot GamesLeague Of Legends 850 Rp 4.8 (2702) League Of Legends 850 Rp 57,50 TL']/container[1]"
+			robustPath="/form[@title>'Favoriler - Trendyol - Google']//link[@accessiblename>'Riot GamesLeague Of Legends']/container[1]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Favoriler - Trendyol - Google']/?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]/?/?/link[@accessiblename&gt;'Riot GamesLeague Of Legends']/container[1]
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="a738df36-8c97-41a1-9147-b09014d1aa30"
+			name="Grouping2"
+			refimgid="3e4538ca-7c29-4552-99db-0d2a7a9d93c0"
+			refpath="/form[@title='Favoriler - Trendyol - Google Chrome']/element[@automationid='224663872']/container[@accessiblename='Favoriler - Trendyol']/container[@accessiblerole='Grouping']/container[1]/container[3]/container[6]/container[2]/link[@accessiblename='SleepyExtra Günlük Aktivite Ultra Paket Bebek Bezi 5 Numara Junior 160 Adet 4.6 (1035) Extra Günlük Aktivite Ultra Paket Bebek Bezi 5 Numara Junior 160 Adet 337,99 TL']/container[1]"
+			robustPath="/form[@title>'Favoriler - Trendyol - Google']//link[@accessiblename>'SleepyExtra Günlük Aktivite']/container[1]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Favoriler - Trendyol - Google']/?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]/?/?/link[@accessiblename&gt;'SleepyExtra G&#252;nl&#252;k Aktivite']/container[1]
+			</item>
+			<basepath>
+				/form[@title&gt;'Favoriler - Trendyol - Google']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx

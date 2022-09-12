@@ -138,18 +138,6 @@
       <UserCode>true</UserCode>
       <id>63ddf438-a26a-4475-a102-9cefc759a512</id>
     </Compile>
-    <Compile Include="Hepsiburada.cs">
-      <BoundTo>b0aa6472-da29-4bbd-a17e-4571860af930</BoundTo>
-      <DependentUpon>Hepsiburada.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>639bfcf7-b631-4598-9fc0-a776ad3b07ce</id>
-    </Compile>
-    <Compile Include="Hepsiburada.UserCode.cs">
-      <BoundTo>b0aa6472-da29-4bbd-a17e-4571860af930</BoundTo>
-      <DependentUpon>Hepsiburada.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>f892d554-6d9b-4c25-a1fb-027d2ea854bc</id>
-    </Compile>
     <Compile Include="OpenBrowser.cs">
       <BoundTo>cb4463ab-510b-4e29-8a4c-ce6a639b09b5</BoundTo>
       <DependentUpon>OpenBrowser.rxrec</DependentUpon>
@@ -165,119 +153,107 @@
     <Compile Include="Program.cs">
       <id>59c6fa96-79cc-480d-9a8b-9edf60986093</id>
     </Compile>
-    <Compile Include="Recording1.cs">
-      <BoundTo>614683cd-961d-40f1-bf9f-45ee1553246d</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>410ed1ab-f715-478b-8aee-4dc51a113d90</id>
-    </Compile>
-    <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>614683cd-961d-40f1-bf9f-45ee1553246d</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>8d57b038-8da4-49f8-803f-dd9f59cb495d</id>
-    </Compile>
     <Compile Include="RonwellTaskRepository.cs">
       <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
       <DependentUpon>RonwellTaskRepository.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
       <id>43c53f3c-03af-4526-b512-b8269d93fb47</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE1.cs">
-      <DependentUpon>CASE1.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\AddProductsToCart.cs">
+      <BoundTo>a46c32bd-ab2c-4322-b1a3-5b6313f575dd</BoundTo>
+      <DependentUpon>AddProductsToCart.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>684a72cc-463d-4f67-87dc-9783be214464</id>
-      <BoundTo>24fa8634-6f9d-49bb-8a0a-37ea4c3d3810</BoundTo>
+      <id>6f25ac0d-02d1-4069-8cea-5751797f23c7</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE1.UserCode.cs">
-      <DependentUpon>CASE1.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\AddProductsToCart.UserCode.cs">
+      <BoundTo>a46c32bd-ab2c-4322-b1a3-5b6313f575dd</BoundTo>
+      <DependentUpon>AddProductsToCart.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>383e074c-5fdd-488a-b133-3f9c97b63f6c</id>
-      <BoundTo>24fa8634-6f9d-49bb-8a0a-37ea4c3d3810</BoundTo>
+      <id>ee8ef1e2-ba4c-4d10-9c14-5816567911b9</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE2.cs">
-      <DependentUpon>CASE2.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\AddProductsToWishlist.cs">
+      <BoundTo>69f9dac9-eea4-422b-addc-7bc6d166945e</BoundTo>
+      <DependentUpon>AddProductsToWishlist.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>16dcee09-11ad-4b7f-af10-5e224a736285</id>
-      <BoundTo>053f1075-c444-424e-9c0b-e701a7baa214</BoundTo>
+      <id>99569ef9-7912-4708-a81b-519566fb3c29</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE2.UserCode.cs">
-      <DependentUpon>CASE2.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\AddProductsToWishlist.UserCode.cs">
+      <BoundTo>69f9dac9-eea4-422b-addc-7bc6d166945e</BoundTo>
+      <DependentUpon>AddProductsToWishlist.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>2f320004-d15b-40bf-ad65-8acf942a5e8d</id>
-      <BoundTo>053f1075-c444-424e-9c0b-e701a7baa214</BoundTo>
+      <id>f03b55ab-4bf1-4c0d-a576-e6c23d27240c</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE3.cs">
-      <DependentUpon>CASE3.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\BlankSpacesInMandatoryFieldsValidationError.cs">
+      <BoundTo>14008ced-2e3c-4e14-ae94-d6d8576e9dec</BoundTo>
+      <DependentUpon>BlankSpacesInMandatoryFieldsValidationError.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>acb957d6-109a-4f13-92fc-7d8c70e402ad</id>
-      <BoundTo>d19eeae5-4b43-414c-aff3-c07cbbd0147f</BoundTo>
+      <id>730fbd9e-509a-48e5-9bd6-336416d0ea40</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE3.UserCode.cs">
-      <DependentUpon>CASE3.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\BlankSpacesInMandatoryFieldsValidationError.UserCode.cs">
+      <BoundTo>14008ced-2e3c-4e14-ae94-d6d8576e9dec</BoundTo>
+      <DependentUpon>BlankSpacesInMandatoryFieldsValidationError.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>8b6083fe-ca14-436b-a2d1-0f76925c7ec2</id>
-      <BoundTo>d19eeae5-4b43-414c-aff3-c07cbbd0147f</BoundTo>
+      <id>e36e7b92-bfba-413f-9677-4061ec638645</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE4.cs">
-      <DependentUpon>CASE4.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\BuyProductsInCart.cs">
+      <BoundTo>201d2ac9-10b6-4397-8c56-22f2023a179b</BoundTo>
+      <DependentUpon>BuyProductsInCart.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>ed7b302b-8e98-48f4-a66f-30901cda6440</id>
-      <BoundTo>a8075210-3808-4050-ae24-4008bd25908c</BoundTo>
+      <id>d7647838-1658-478b-95c8-088e19c61d1d</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE4.UserCode.cs">
-      <DependentUpon>CASE4.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\BuyProductsInCart.UserCode.cs">
+      <BoundTo>201d2ac9-10b6-4397-8c56-22f2023a179b</BoundTo>
+      <DependentUpon>BuyProductsInCart.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>4adbdca2-d7db-4b06-ad1e-c93414f1448c</id>
-      <BoundTo>a8075210-3808-4050-ae24-4008bd25908c</BoundTo>
+      <id>58f4669a-e1f3-4d63-bad1-93c71ce0f1e4</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE5.cs">
-      <DependentUpon>CASE5.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\EmptyMandatoryFieldsValidationError.cs">
+      <BoundTo>1516e46b-6077-47a2-9a9d-a7ce3b17a0ac</BoundTo>
+      <DependentUpon>EmptyMandatoryFieldsValidationError.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>7af3f345-b70f-4db1-84e4-bceb1b299386</id>
-      <BoundTo>4748d6c0-d131-4223-8b95-ff6a588607c2</BoundTo>
+      <id>a34b670d-48fd-43c6-aeba-360a490fef64</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE5.UserCode.cs">
-      <DependentUpon>CASE5.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\EmptyMandatoryFieldsValidationError.UserCode.cs">
+      <BoundTo>1516e46b-6077-47a2-9a9d-a7ce3b17a0ac</BoundTo>
+      <DependentUpon>EmptyMandatoryFieldsValidationError.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>ba1b4b1e-0705-4fb4-a10d-ecb97ec8ae8f</id>
-      <BoundTo>4748d6c0-d131-4223-8b95-ff6a588607c2</BoundTo>
+      <id>3903c978-f265-4a6b-8857-d47567c7159b</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE6.cs">
-      <DependentUpon>CASE6.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\RegistrationPageSpecifiedFieldsVisibility.cs">
+      <BoundTo>6be271c9-54d4-44f2-9763-34b3317849b5</BoundTo>
+      <DependentUpon>RegistrationPageSpecifiedFieldsVisibility.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>01b2e4e3-5ee2-4d27-bf28-ac3e1357138f</id>
-      <BoundTo>ff26473f-d3ce-4f81-b2bb-ef64ada2166e</BoundTo>
+      <id>920e9272-9ca3-4bf9-89db-1a383130400b</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE6.UserCode.cs">
-      <DependentUpon>CASE6.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\RegistrationPageSpecifiedFieldsVisibility.UserCode.cs">
+      <BoundTo>6be271c9-54d4-44f2-9763-34b3317849b5</BoundTo>
+      <DependentUpon>RegistrationPageSpecifiedFieldsVisibility.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>2bd0bbee-00c7-429d-924c-b47022f2b57d</id>
-      <BoundTo>ff26473f-d3ce-4f81-b2bb-ef64ada2166e</BoundTo>
+      <id>a9550d95-17bb-4e1e-b663-af327ab93800</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE7.cs">
-      <DependentUpon>CASE7.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\ReportAnswerQuestionInHelpSection.cs">
+      <BoundTo>e3ddc90a-abb2-412e-bc11-bed3d02eadc7</BoundTo>
+      <DependentUpon>ReportAnswerQuestionInHelpSection.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>6f92da1f-0241-447a-8507-2391e3fd83ac</id>
-      <BoundTo>8b0515b3-2ede-431a-871e-eb39dd7e4329</BoundTo>
+      <id>95cee0ce-aa3e-4072-a9b4-5446fc4baed4</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE7.UserCode.cs">
-      <DependentUpon>CASE7.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\ReportAnswerQuestionInHelpSection.UserCode.cs">
+      <BoundTo>e3ddc90a-abb2-412e-bc11-bed3d02eadc7</BoundTo>
+      <DependentUpon>ReportAnswerQuestionInHelpSection.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>473dc066-d2df-47ec-bfb9-352c4816ed5f</id>
-      <BoundTo>8b0515b3-2ede-431a-871e-eb39dd7e4329</BoundTo>
+      <id>d48b84d3-9a89-4bb1-a033-5f7ef7833799</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE8.cs">
-      <DependentUpon>CASE8.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\SuccessfullLogout.cs">
+      <BoundTo>cda3a712-3492-4fa6-8f2d-15c724bf45e0</BoundTo>
+      <DependentUpon>SuccessfullLogout.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>f08296d8-340d-487c-a7f0-8d4755f94277</id>
-      <BoundTo>8335c1e2-965f-4622-88e8-67a98ae302c3</BoundTo>
+      <id>0e269a44-b1a4-4518-9d9c-a6bb0e906d08</id>
     </Compile>
-    <Compile Include="TestScenarios\CASE8.UserCode.cs">
-      <DependentUpon>CASE8.rxrec</DependentUpon>
+    <Compile Include="TrendyolTestScenarios\SuccessfullLogout.UserCode.cs">
+      <BoundTo>cda3a712-3492-4fa6-8f2d-15c724bf45e0</BoundTo>
+      <DependentUpon>SuccessfullLogout.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>74399d45-899c-4ea2-bc12-260e78cd05f0</id>
-      <BoundTo>8335c1e2-965f-4622-88e8-67a98ae302c3</BoundTo>
+      <id>44c16645-1c7f-4ccb-b158-0f0591c6f4a6</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -289,20 +265,10 @@
       <id>d997562d-4dd3-4b43-92e7-2ad7f76747b0</id>
       <recordtableid>b5b9eeb6-e05b-4bc5-97a8-44258189980e</recordtableid>
     </None>
-    <None Include="Hepsiburada.rxrec">
-      <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
-      <id>b0aa6472-da29-4bbd-a17e-4571860af930</id>
-      <recordtableid>5c210018-7687-4b6e-89d0-9bb435ae8cbd</recordtableid>
-    </None>
     <None Include="OpenBrowser.rxrec">
       <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
       <id>cb4463ab-510b-4e29-8a4c-ce6a639b09b5</id>
       <recordtableid>745ff917-8b37-46c7-8eba-52d8cc3e7b44</recordtableid>
-    </None>
-    <None Include="Recording1.rxrec">
-      <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
-      <id>614683cd-961d-40f1-bf9f-45ee1553246d</id>
-      <recordtableid>925b98b5-acd8-43de-bab6-26df9daf3b75</recordtableid>
     </None>
     <None Include="RonwellTaskRepository.rximg">
       <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
@@ -315,45 +281,45 @@
       <repoid>61770150-ad1d-4c8c-9026-854ad7c9c1be</repoid>
       <reporootid>f5d16358-5511-42a0-8239-c75465ed1e0e</reporootid>
     </None>
-    <None Include="TestScenarios\CASE1.rxrec">
+    <None Include="TrendyolTestScenarios\AddProductsToCart.rxrec">
       <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
-      <id>24fa8634-6f9d-49bb-8a0a-37ea4c3d3810</id>
-      <recordtableid>5fd72bab-f70e-4306-94f4-435423c95f71</recordtableid>
+      <id>a46c32bd-ab2c-4322-b1a3-5b6313f575dd</id>
+      <recordtableid>3ee3dd82-21cc-4482-88b9-a895b1bed8cd</recordtableid>
     </None>
-    <None Include="TestScenarios\CASE2.rxrec">
+    <None Include="TrendyolTestScenarios\AddProductsToWishlist.rxrec">
       <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
-      <id>053f1075-c444-424e-9c0b-e701a7baa214</id>
-      <recordtableid>7b3ccaf4-7ff3-4b43-9943-e42422f1a830</recordtableid>
+      <id>69f9dac9-eea4-422b-addc-7bc6d166945e</id>
+      <recordtableid>37248c75-11ee-44e0-9ec1-7fde99441644</recordtableid>
     </None>
-    <None Include="TestScenarios\CASE3.rxrec">
+    <None Include="TrendyolTestScenarios\BlankSpacesInMandatoryFieldsValidationError.rxrec">
       <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
-      <id>d19eeae5-4b43-414c-aff3-c07cbbd0147f</id>
-      <recordtableid>530edb37-a66e-44d0-ac07-ece67b5840ee</recordtableid>
+      <id>14008ced-2e3c-4e14-ae94-d6d8576e9dec</id>
+      <recordtableid>7230c08a-61b3-4e64-9e04-ab10e8b090f8</recordtableid>
     </None>
-    <None Include="TestScenarios\CASE4.rxrec">
+    <None Include="TrendyolTestScenarios\BuyProductsInCart.rxrec">
       <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
-      <id>a8075210-3808-4050-ae24-4008bd25908c</id>
-      <recordtableid>61557e7d-5dd0-445d-a19e-19e36a830bea</recordtableid>
+      <id>201d2ac9-10b6-4397-8c56-22f2023a179b</id>
+      <recordtableid>6a6f39d4-a297-4582-b076-1390fa56c905</recordtableid>
     </None>
-    <None Include="TestScenarios\CASE5.rxrec">
+    <None Include="TrendyolTestScenarios\EmptyMandatoryFieldsValidationError.rxrec">
       <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
-      <id>4748d6c0-d131-4223-8b95-ff6a588607c2</id>
-      <recordtableid>82bf8544-4a24-477c-b22a-d955808a0b0c</recordtableid>
+      <id>1516e46b-6077-47a2-9a9d-a7ce3b17a0ac</id>
+      <recordtableid>7320d157-d5c8-4c89-af58-cdea009605c3</recordtableid>
     </None>
-    <None Include="TestScenarios\CASE6.rxrec">
+    <None Include="TrendyolTestScenarios\RegistrationPageSpecifiedFieldsVisibility.rxrec">
       <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
-      <id>ff26473f-d3ce-4f81-b2bb-ef64ada2166e</id>
-      <recordtableid>e2e68f39-6739-4c55-bdbe-e36b10b168b0</recordtableid>
+      <id>6be271c9-54d4-44f2-9763-34b3317849b5</id>
+      <recordtableid>e69b982b-7437-4a74-9d2b-4528c0a7f50e</recordtableid>
     </None>
-    <None Include="TestScenarios\CASE7.rxrec">
+    <None Include="TrendyolTestScenarios\ReportAnswerQuestionInHelpSection.rxrec">
       <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
-      <id>8b0515b3-2ede-431a-871e-eb39dd7e4329</id>
-      <recordtableid>148b254f-6b88-44f8-99bd-1c1693adc8c5</recordtableid>
+      <id>e3ddc90a-abb2-412e-bc11-bed3d02eadc7</id>
+      <recordtableid>6660227c-abf0-4147-a6da-f2fa810b455a</recordtableid>
     </None>
-    <None Include="TestScenarios\CASE8.rxrec">
+    <None Include="TrendyolTestScenarios\SuccessfullLogout.rxrec">
       <BoundTo>5c7f322e-e7ff-4d43-8c3f-e8e1f7b156d8</BoundTo>
-      <id>8335c1e2-965f-4622-88e8-67a98ae302c3</id>
-      <recordtableid>f2743932-a006-4ec7-aa54-e988b23de011</recordtableid>
+      <id>cda3a712-3492-4fa6-8f2d-15c724bf45e0</id>
+      <recordtableid>13c5bb0c-11c5-4b6b-aa5e-2e33e932071d</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -367,7 +333,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="TestScenarios">
+    <Folder Include="TrendyolTestScenarios">
       <id>74dc8dda-1810-4069-97bc-1fd3d82c3eae</id>
     </Folder>
   </ItemGroup>

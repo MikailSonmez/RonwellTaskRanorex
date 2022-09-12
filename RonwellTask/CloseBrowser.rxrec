@@ -27,7 +27,7 @@ mode="Desktop">
 	<recorditems>
 		<closeapprecorditem
 		enabled="True"
-		graceperiod="10000ms"
+		graceperiod="1000ms"
 		method="CloseWindow"
 		optional="False"
 		searchpropertyid="7f858bc9-b4ca-4861-87ec-22d67eaded15">

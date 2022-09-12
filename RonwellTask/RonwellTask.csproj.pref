@@ -1,11 +1,12 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="CASE8.rxrec" />
+    <Element value="CloseBrowser.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="RonwellTask.rxtst" />
-    <Element value="CASE8.rxrec" />
+    <Element value="TrendyolTestScenarios\VerifySpecifiedFieldsRegistrationPage.rxrec" />
+    <Element value="CloseBrowser.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections" />

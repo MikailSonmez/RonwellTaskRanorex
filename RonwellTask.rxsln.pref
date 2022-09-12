@@ -9,8 +9,9 @@
       <string>{F23E3A85-F821-436A-B60A-A58864946B3D}</string>
       <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>74dc8dda-1810-4069-97bc-1fd3d82c3eae</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution RonwellTask[RonwellTask[Reports[]]]]&#xD;&#xA;Solution RonwellTask\RonwellTask\CASE8.rxrec&#xD;&#xA;Solution RonwellTask\RonwellTask\CASE2.rxrec" />
+  <ProjectBrowserState value="[Solution RonwellTask[RonwellTask[TrendyolTestScenarios[]]]]&#xD;&#xA;Solution RonwellTask\RonwellTask\CloseBrowser.rxrec&#xD;&#xA;Solution RonwellTask" />
   <StartupProject value="{F23E3A85-F821-436A-B60A-A58864946B3D}" />
 </Properties>

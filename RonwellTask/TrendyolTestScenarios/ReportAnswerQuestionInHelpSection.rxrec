@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6660227c-abf0-4147-a6da-f2fa810b455a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ReportAnswerQuestionInHelpSection"
+	namespace="RonwellTask.TrendyolTestScenarios">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="61770150-ad1d-4c8c-9026-854ad7c9c1be"
+	name="RonwellTaskRepository"
+	relativepath="..\RonwellTaskRepository.rxrep">
+		<codegen
+		classname="RonwellTaskRepository"
+		namespace="RonwellTask">
+		</codegen>
+		<rootfolder
+		id="f5d16358-5511-42a0-8239-c75465ed1e0e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ReportAnswerQuestionInHelpSection.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

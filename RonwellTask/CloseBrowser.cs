@@ -80,7 +80,7 @@ namespace RonwellTask
             Init();
 
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(0));
-            Host.Current.CloseApplication(repo.ApplicationUnderTest.Self, 10000);
+            Host.Current.CloseApplication(repo.ApplicationUnderTest.Self, 1000);
             Delay.Milliseconds(0);
             
         }
