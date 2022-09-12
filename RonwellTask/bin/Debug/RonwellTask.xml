@@ -1,0 +1,1020 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RonwellTask</name>
+    </assembly>
+    <members>
+        <member name="T:RonwellTask.CASE1">
+             <summary>
+            The CASE1 recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.CASE1.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.CASE1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.CASE1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.CASE1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.CASE2">
+             <summary>
+            The CASE2 recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.CASE2.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.CASE2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.CASE2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.CASE2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.CASE3">
+             <summary>
+            The CASE3 recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.CASE3.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE3.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE3.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.CASE3.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE3.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.CASE3.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.CASE3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.CASE4">
+             <summary>
+            The CASE4 recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.CASE4.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE4.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE4.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.CASE4.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE4.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.CASE4.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.CASE4.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.CASE5">
+             <summary>
+            The CASE5 recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.CASE5.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE5.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE5.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.CASE5.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE5.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.CASE5.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.CASE5.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.CASE6">
+             <summary>
+            The CASE6 recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.CASE6.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE6.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE6.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.CASE6.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE6.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.CASE6.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.CASE6.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.CASE7">
+             <summary>
+            The CASE7 recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.CASE7.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE7.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE7.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.CASE7.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE7.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.CASE7.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.CASE7.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.CASE8">
+             <summary>
+            The CASE8 recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.CASE8.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE8.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE8.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.CASE8.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CASE8.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.CASE8.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.CASE8.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.Hepsiburada">
+             <summary>
+            The Hepsiburada recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.Hepsiburada.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.Hepsiburada.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.Hepsiburada.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.Hepsiburada.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.Hepsiburada.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.Hepsiburada.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.Hepsiburada.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.Recording1.repo">
+            <summary>
+            Holds an instance of the RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepository">
+            <summary>
+            The class representing the RonwellTaskRepository element repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the RonwellTaskRepository element repository.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.NewIncognitoTabGoogleChrome">
+            <summary>
+            The NewIncognitoTabGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.KadınButikleriYeniSezonUEruenleri">
+            <summary>
+            The KadınButikleriYeniSezonUEruenleri folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.EnTrendUEruenlerTuerkiyeninOnlineAl">
+            <summary>
+            The EnTrendUEruenlerTuerkiyeninOnlineAl folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.HttpsWwwTrendyolComUyelikcbEqhttps">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttps folder.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.AccountUserLink">
+            <summary>
+            The AccountUserLink item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.AccountUserLinkInfo">
+            <summary>
+            The AccountUserLink item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.LoginEmail">
+            <summary>
+            The LoginEmail item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.LoginEmailInfo">
+            <summary>
+            The LoginEmail item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.LoginPasswordInput">
+            <summary>
+            The LoginPasswordInput item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.LoginPasswordInputInfo">
+            <summary>
+            The LoginPasswordInput item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.Container">
+            <summary>
+            The Container item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.ContainerInfo">
+            <summary>
+            The Container item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.LoginRegister">
+            <summary>
+            The LoginRegister folder.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder">
+            <summary>
+            The LoginRegisterFolder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginRegister  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.QButtonQButtonMediumQFluidQPrima">
+            <summary>
+            The QButtonQButtonMediumQFluidQPrima item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.QButtonQButtonMediumQFluidQPrimaInfo">
+            <summary>
+            The QButtonQButtonMediumQFluidQPrima item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.LrTitle">
+            <summary>
+            The LrTitle item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.LrTitleInfo">
+            <summary>
+            The LrTitle item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.ButtonQButtonQButtonMediumQSecond">
+            <summary>
+            The ButtonQButtonQButtonMediumQSecond item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.ButtonQButtonQButtonMediumQSecondInfo">
+            <summary>
+            The ButtonQButtonQButtonMediumQSecond item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.LrContainer">
+            <summary>
+            The LrContainer item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.LrContainerInfo">
+            <summary>
+            The LrContainer item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.SocialAccountLoginButtons">
+            <summary>
+            The SocialAccountLoginButtons item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.SocialAccountLoginButtonsInfo">
+            <summary>
+            The SocialAccountLoginButtons item info.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder">
+            <summary>
+            The NewIncognitoTabGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewIncognitoTabGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder.Element367825152">
+            <summary>
+            The Element367825152 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder.Element367825152Info">
+            <summary>
+            The Element367825152 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder.Element367989952">
+            <summary>
+            The Element367989952 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder.Element367989952Info">
+            <summary>
+            The Element367989952 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder.Back">
+            <summary>
+            The Back item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder.BackInfo">
+            <summary>
+            The Back item info.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.KadınButikleriYeniSezonUEruenleriAppFolder">
+            <summary>
+            The KadınButikleriYeniSezonUEruenleriAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.KadınButikleriYeniSezonUEruenleriAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new KadınButikleriYeniSezonUEruenleri  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.KadınButikleriYeniSezonUEruenleriAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.KadınButikleriYeniSezonUEruenleriAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.KadınButikleriYeniSezonUEruenleriAppFolder.Element359900672">
+            <summary>
+            The Element359900672 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.KadınButikleriYeniSezonUEruenleriAppFolder.Element359900672Info">
+            <summary>
+            The Element359900672 item info.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder">
+            <summary>
+            The EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EnTrendUEruenlerTuerkiyeninOnlineAl  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Element221778240">
+            <summary>
+            The Element221778240 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Element221778240Info">
+            <summary>
+            The Element221778240 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Back">
+            <summary>
+            The Back item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.BackInfo">
+            <summary>
+            The Back item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Document">
+            <summary>
+            The Document item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.DocumentInfo">
+            <summary>
+            The Document item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Grouping">
+            <summary>
+            The Grouping item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.GroupingInfo">
+            <summary>
+            The Grouping item info.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HttpsWwwTrendyolComUyelikcbEqhttps  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Element180987456">
+            <summary>
+            The Element180987456 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Element180987456Info">
+            <summary>
+            The Element180987456 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Grouping">
+            <summary>
+            The Grouping item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.GroupingInfo">
+            <summary>
+            The Grouping item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Grouping2">
+            <summary>
+            The Grouping2 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Grouping2Info">
+            <summary>
+            The Grouping2 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.SomeText">
+            <summary>
+            The SomeText item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.SomeTextInfo">
+            <summary>
+            The SomeText item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Grouping1">
+            <summary>
+            The Grouping1 folder.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder">
+            <summary>
+            The Grouping1Folder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Grouping1  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.Grouping">
+            <summary>
+            The Grouping item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.GroupingInfo">
+            <summary>
+            The Grouping item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.Erkek">
+            <summary>
+            The Erkek item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.ErkekInfo">
+            <summary>
+            The Erkek item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.UEYEOL">
+            <summary>
+            The UEYEOL item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.UEYEOLInfo">
+            <summary>
+            The UEYEOL item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.ComboBox">
+            <summary>
+            The ComboBox item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.ComboBoxInfo">
+            <summary>
+            The ComboBox item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,10 @@
+C:\Users\mikai\RonwellTask\RonwellTask\bin\Debug\RonwellTask.rxtmg
+C:\Users\mikai\RonwellTask\RonwellTask\bin\Debug\RonwellTask.rxtst
+C:\Users\mikai\RonwellTask\RonwellTask\bin\Debug\RonwellTask.exe.config
+C:\Users\mikai\RonwellTask\RonwellTask\bin\Debug\RonwellTask.xml
+C:\Users\mikai\RonwellTask\RonwellTask\bin\Debug\RonwellTask.exe
+C:\Users\mikai\RonwellTask\RonwellTask\bin\Debug\RonwellTask.pdb
+C:\Users\mikai\RonwellTask\RonwellTask\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\mikai\RonwellTask\RonwellTask\obj\x86\Debug\RonwellTask.csprojResolveAssemblyReference.cache
+C:\Users\mikai\RonwellTask\RonwellTask\obj\x86\Debug\RonwellTask.exe
+C:\Users\mikai\RonwellTask\RonwellTask\obj\x86\Debug\RonwellTask.pdb
