@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace RonwellTask
+namespace RonwellTask.TestScenarios
 {
-    public partial class CASE8
+    public partial class CASE2
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

@@ -20,7 +20,7 @@ mode="Global">
 	</useDefaultItemLogging>
 	<codegen
 	classname="CASE1"
-	namespace="RonwellTask">
+	namespace="RonwellTask.TestScenarios">
 	</codegen>
 	<variables>
 	</variables>
@@ -85,7 +85,6 @@ mode="Global">
 					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]
 				</path>
 				<robustPath>
-					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -203,7 +202,6 @@ pbEpIueAQaKK1o/GjKt8DL1IfvfhRRXccItFFFABRRRQAUUUUAFFFFAH/9k=
 					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]
 				</path>
 				<robustPath>
-					/dom[@domain='www.trendyol.com']/body/div/div/div/div/div/div/div/div/div/div/div/div
 				</robustPath>
 			</info>
 		</touchrecorditem>
@@ -268,7 +266,6 @@ pbEpIueAQaKK1o/GjKt8DL1IfvfhRRXccItFFFABRRRQAUUUUAFFFFAH/9k=
 					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']
 				</path>
 				<robustPath>
-					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//div[@innertext='Üye Ol']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -389,7 +386,6 @@ hJQZUk2YONzZIJI4PP4/jRYDQ3D/ACKNw/yKQDijFIBdw/yKQnPSjFLigAFFLRQB/9k=
 					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']
 				</path>
 				<robustPath>
-					/dom[@domain='www.trendyol.com']/body/div/div/div/div/div/div/div/div/div/div/div/div/div/div
 				</robustPath>
 			</info>
 		</mouseitem>
@@ -469,7 +465,6 @@ hJQZUk2YONzZIJI4PP4/jRYDQ3D/ACKNw/yKQDijFIBdw/yKQnPSjFLigAFFLRQB/9k=
 					/form[@title&gt;'https://www.trendyol.com/']/container[@accessiblename&gt;'https://www.trendyol.com/']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/button[@accessiblename='Back']
 				</path>
 				<robustPath>
-					/form[@title&gt;'https://www.trendyol.com/']//button[@accessiblename='Back']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -4286,7 +4281,7 @@ cjOPWnrcK0uwK33iueMZHaiigCWiiigAooooAKaPuiiigBaKKKAP/9k=
 	<repository
 	id="61770150-ad1d-4c8c-9026-854ad7c9c1be"
 	name="RonwellTaskRepository"
-	relativepath="RonwellTaskRepository.rxrep">
+	relativepath="..\RonwellTaskRepository.rxrep">
 		<codegen
 		classname="RonwellTaskRepository"
 		namespace="RonwellTask">

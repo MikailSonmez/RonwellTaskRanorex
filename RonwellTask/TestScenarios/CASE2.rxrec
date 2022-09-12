@@ -20,7 +20,7 @@ mode="Global">
 	</useDefaultItemLogging>
 	<codegen
 	classname="CASE2"
-	namespace="RonwellTask">
+	namespace="RonwellTask.TestScenarios">
 	</codegen>
 	<variables>
 	</variables>
@@ -1522,7 +1522,7 @@ iiigAooooAKKKKACiiigAooooAKKKKACmj7ooooAWiiigD//2Q==
 	<repository
 	id="61770150-ad1d-4c8c-9026-854ad7c9c1be"
 	name="RonwellTaskRepository"
-	relativepath="RonwellTaskRepository.rxrep">
+	relativepath="..\RonwellTaskRepository.rxrep">
 		<codegen
 		classname="RonwellTaskRepository"
 		namespace="RonwellTask">

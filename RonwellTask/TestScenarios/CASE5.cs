@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace RonwellTask
+namespace RonwellTask.TestScenarios
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
@@ -30,9 +30,9 @@ namespace RonwellTask
     public partial class CASE5 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the RonwellTaskRepository repository.
+        /// Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
         /// </summary>
-        public static RonwellTaskRepository repo = RonwellTaskRepository.Instance;
+        public static global::RonwellTask.RonwellTaskRepository repo = global::RonwellTask.RonwellTaskRepository.Instance;
 
         static CASE5 instance = new CASE5();
 
