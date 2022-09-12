@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.16s"
+		durationms="12161"
+		type="root"
+		rid="63388db5d7ac180"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mikai"
+		rxversion="10.2.4.0"
+		host="DESKTOP-6A5MND1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/13/2022 2:18:50 AM"
+		timestampiso="2022-09-12T23:18:50"
+		endtime="9/13/2022 2:19:03 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BuyProductsInCart">
+		<detail>
+			BuyProductsInCart
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.831"
+			timeRelativeToTestModuleStartTime="00:05.831"
+			timeWallClock="02:18:56"
+			time="00:05.831"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.LinkSepetim22' at 35;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/element[@automationid='73598400']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='  Sepetim 2']"
+				itempath="element[@automationid='73598400']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='  Sepetim 2']"
+				fullname="RonwellTaskRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.LinkSepetim22"
+				id="2352ad2b00734e1583663adf4ebaaeb7"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\BuyProductsInCart.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.742"
+			timeRelativeToTestModuleStartTime="00:07.742"
+			timeWallClock="02:18:58"
+			time="00:07.742"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SepetimTrendyolGoogleChrome.SepetiOnayla' at 55;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']/container[16]/link[1]/text[@accessiblename='Sepeti Onayla']"
+				itempath="?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']/container[16]/link[1]/text[@accessiblename='Sepeti Onayla']"
+				fullname="RonwellTaskRepository.SepetimTrendyolGoogleChrome.SepetiOnayla"
+				id="e0abd441345b46ada0a151d212aaa25f"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\BuyProductsInCart.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.583"
+			timeRelativeToTestModuleStartTime="00:09.583"
+			timeWallClock="02:19:00"
+			time="00:09.583"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SepetimTrendyolGoogleChrome.KaydetVeDevamEt' at 128;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Kaydet ve Devam Et']"
+				itempath="?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Kaydet ve Devam Et']"
+				fullname="RonwellTaskRepository.SepetimTrendyolGoogleChrome.KaydetVeDevamEt"
+				id="5924e3c2d96b4bae8c28b4bd48fc544c"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\BuyProductsInCart.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.771"
+			timeRelativeToTestModuleStartTime="00:10.771"
+			timeWallClock="02:19:01"
+			time="00:10.771"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'SepetimTrendyolGoogleChrome.OEdemeYap'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='Ödeme Yap']"
+				itempath="?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='Ödeme Yap']"
+				fullname="RonwellTaskRepository.SepetimTrendyolGoogleChrome.OEdemeYap"
+				id="db7ce29520a74c6eb0320f98e96f8b24"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\BuyProductsInCart.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.459"
+			timeRelativeToTestModuleStartTime="00:11.459"
+			timeWallClock="02:19:02"
+			time="00:11.459"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'RonwellTaskRepository.SepetimTrendyolGoogleChrome.OEdemeYap' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='Ödeme Yap']"
+				itempath="?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='Ödeme Yap']"
+				fullname="RonwellTaskRepository.SepetimTrendyolGoogleChrome.OEdemeYap"
+				id="db7ce29520a74c6eb0320f98e96f8b24"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\BuyProductsInCart.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.570"
+			timeRelativeToTestModuleStartTime="00:11.570"
+			timeWallClock="02:19:02"
+			time="00:11.570"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Ödeme Yap') on item 'SepetimTrendyolGoogleChrome.OEdemeYap'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='Ödeme Yap']"
+				itempath="?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='Ödeme Yap']"
+				fullname="RonwellTaskRepository.SepetimTrendyolGoogleChrome.OEdemeYap"
+				id="db7ce29520a74c6eb0320f98e96f8b24"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\BuyProductsInCart.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.664"
+			timeRelativeToTestModuleStartTime="00:11.664"
+			timeWallClock="02:19:02"
+			time="00:11.664"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'RonwellTaskRepository.SepetimTrendyolGoogleChrome.OEdemeYap' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='Ödeme Yap']"
+				itempath="?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='Ödeme Yap']"
+				fullname="RonwellTaskRepository.SepetimTrendyolGoogleChrome.OEdemeYap"
+				id="db7ce29520a74c6eb0320f98e96f8b24"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\BuyProductsInCart.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.773"
+			timeRelativeToTestModuleStartTime="00:11.773"
+			timeWallClock="02:19:02"
+			time="00:11.773"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click at {X=1896,Y=12}.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\BuyProductsInCart.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

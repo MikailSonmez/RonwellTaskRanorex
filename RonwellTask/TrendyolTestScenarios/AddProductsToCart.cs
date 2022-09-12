@@ -83,8 +83,8 @@ namespace RonwellTask.TrendyolTestScenarios
             repo.EnTrendUEruenlerTuerkiyeninOnlineAl.Graphic.Click("54;67");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SleepyExtraGuenluekAktiviteUltraPak.SepeteEkle1' at 302;1.", repo.SleepyExtraGuenluekAktiviteUltraPak.SepeteEkle1Info, new RecordItemIndex(1));
-            repo.SleepyExtraGuenluekAktiviteUltraPak.SepeteEkle1.Click("302;1");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SepetimTrendyolGoogleChrome.SepeteEkle' at 28;11.", repo.SepetimTrendyolGoogleChrome.SepeteEkleInfo, new RecordItemIndex(1));
+            repo.SepetimTrendyolGoogleChrome.SepeteEkle.Click("28;11");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Back1' at 24;17.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.Back1Info, new RecordItemIndex(2));
@@ -95,20 +95,26 @@ namespace RonwellTask.TrendyolTestScenarios
             repo.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping5.Click("170;70");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SleepyExtraGuenluekAktiviteUltraPak.SepeteEkle' at 315;9.", repo.SleepyExtraGuenluekAktiviteUltraPak.SepeteEkleInfo, new RecordItemIndex(4));
-            repo.SleepyExtraGuenluekAktiviteUltraPak.SepeteEkle.Click("315;9");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SepetimTrendyolGoogleChrome.SepeteEkle1' at 43;9.", repo.SepetimTrendyolGoogleChrome.SepeteEkle1Info, new RecordItemIndex(4));
+            repo.SepetimTrendyolGoogleChrome.SepeteEkle1.Click("43;9");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SleepyExtraGuenluekAktiviteUltraPak.LinkSepetim2' at 38;0.", repo.SleepyExtraGuenluekAktiviteUltraPak.LinkSepetim2Info, new RecordItemIndex(5));
-            repo.SleepyExtraGuenluekAktiviteUltraPak.LinkSepetim2.Click("38;0");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click at {X=1503,Y=125}.", new RecordItemIndex(5));
+            Mouse.MoveTo(1503, 125);
+            Mouse.Click(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'SleepyExtraGuenluekAktiviteUltraPak.Grouping'.", repo.SleepyExtraGuenluekAktiviteUltraPak.GroupingInfo, new RecordItemIndex(6));
-            Validate.AttributeEqual(repo.SleepyExtraGuenluekAktiviteUltraPak.GroupingInfo, "Visible", "True");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'SepetimTrendyolGoogleChrome.Graphic'.", repo.SepetimTrendyolGoogleChrome.GraphicInfo, new RecordItemIndex(6));
+            Validate.AttributeEqual(repo.SepetimTrendyolGoogleChrome.GraphicInfo, "Visible", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsWwwTrendyolComUyelikcbEqhttps.Pane' at 1891;12.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.PaneInfo, new RecordItemIndex(7));
-            repo.HttpsWwwTrendyolComUyelikcbEqhttps.Pane.Click("1891;12");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'SepetimTrendyolGoogleChrome.Graphic1'.", repo.SepetimTrendyolGoogleChrome.Graphic1Info, new RecordItemIndex(7));
+            Validate.AttributeEqual(repo.SepetimTrendyolGoogleChrome.Graphic1Info, "Visible", "True");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click at {X=1896,Y=12}.", new RecordItemIndex(8));
+            Mouse.MoveTo(1896, 12);
+            Mouse.Click(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(0);
             
         }

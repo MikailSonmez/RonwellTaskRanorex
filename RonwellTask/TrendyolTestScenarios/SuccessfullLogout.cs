@@ -92,6 +92,11 @@ namespace RonwellTask.TrendyolTestScenarios
             Mouse.Click(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(1270);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click at {X=1896,Y=12}.", new RecordItemIndex(3));
+            Mouse.MoveTo(1896, 12);
+            Mouse.Click(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

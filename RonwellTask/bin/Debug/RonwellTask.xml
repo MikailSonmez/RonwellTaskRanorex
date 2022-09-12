@@ -152,6 +152,11 @@
             The FavorilerTrendyolGoogleChrome folder.
             </summary>
         </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.SepetimTrendyolGoogleChrome">
+            <summary>
+            The SepetimTrendyolGoogleChrome folder.
+            </summary>
+        </member>
         <member name="T:RonwellTask.RonwellTaskRepositoryFolders">
             <summary>
             Inner folder classes.
@@ -767,6 +772,16 @@
             The Grouping11 item info.
             </summary>
         </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.LinkSepetim22">
+            <summary>
+            The LinkSepetim22 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.LinkSepetim22Info">
+            <summary>
+            The LinkSepetim22 item info.
+            </summary>
+        </member>
         <member name="T:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder">
             <summary>
             The HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder folder.
@@ -1252,26 +1267,6 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SleepyExtraGuenluekAktiviteUltraPakAppFolder.SepeteEkle">
-            <summary>
-            The SepeteEkle item.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SleepyExtraGuenluekAktiviteUltraPakAppFolder.SepeteEkleInfo">
-            <summary>
-            The SepeteEkle item info.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SleepyExtraGuenluekAktiviteUltraPakAppFolder.SepeteEkle1">
-            <summary>
-            The SepeteEkle1 item.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SleepyExtraGuenluekAktiviteUltraPakAppFolder.SepeteEkle1Info">
-            <summary>
-            The SepeteEkle1 item info.
-            </summary>
-        </member>
         <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SleepyExtraGuenluekAktiviteUltraPakAppFolder.LinkSepetim3">
             <summary>
             The LinkSepetim3 item.
@@ -1362,6 +1357,350 @@
             The Grouping2 item info.
             </summary>
         </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder">
+            <summary>
+            The SepetimTrendyolGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SepetimTrendyolGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.Graphic">
+            <summary>
+            The Graphic item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.GraphicInfo">
+            <summary>
+            The Graphic item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.Graphic1">
+            <summary>
+            The Graphic1 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.Graphic1Info">
+            <summary>
+            The Graphic1 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.SepeteEkle">
+            <summary>
+            The SepeteEkle item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.SepeteEkleInfo">
+            <summary>
+            The SepeteEkle item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.SepeteEkle1">
+            <summary>
+            The SepeteEkle1 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.SepeteEkle1Info">
+            <summary>
+            The SepeteEkle1 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.None">
+            <summary>
+            The None item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.NoneInfo">
+            <summary>
+            The None item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.None1">
+            <summary>
+            The None1 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.None1Info">
+            <summary>
+            The None1 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.OEdemeYap">
+            <summary>
+            The OEdemeYap item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.OEdemeYapInfo">
+            <summary>
+            The OEdemeYap item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.SepetiOnayla">
+            <summary>
+            The SepetiOnayla item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.SepetiOnaylaInfo">
+            <summary>
+            The SepetiOnayla item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.KaydetVeDevamEt">
+            <summary>
+            The KaydetVeDevamEt item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.KaydetVeDevamEtInfo">
+            <summary>
+            The KaydetVeDevamEt item info.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.TrendyolTestScenarios.AddProductsToCart">
+             <summary>
+            The AddProductsToCart recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.TrendyolTestScenarios.AddProductsToCart.repo">
+            <summary>
+            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.AddProductsToCart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.AddProductsToCart.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.AddProductsToCart.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.AddProductsToCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.AddProductsToCart.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.TrendyolTestScenarios.AddProductsToCart.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.TrendyolTestScenarios.AddProductsToWishlist">
+             <summary>
+            The AddProductsToWishlist recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.TrendyolTestScenarios.AddProductsToWishlist.repo">
+            <summary>
+            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.AddProductsToWishlist.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.AddProductsToWishlist.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.AddProductsToWishlist.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.AddProductsToWishlist.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.AddProductsToWishlist.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.TrendyolTestScenarios.AddProductsToWishlist.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.TrendyolTestScenarios.BlankSpacesInMandatoryFieldsValidationError">
+             <summary>
+            The BlankSpacesInMandatoryFieldsValidationError recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.TrendyolTestScenarios.BlankSpacesInMandatoryFieldsValidationError.repo">
+            <summary>
+            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.BlankSpacesInMandatoryFieldsValidationError.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.BlankSpacesInMandatoryFieldsValidationError.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.BlankSpacesInMandatoryFieldsValidationError.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.BlankSpacesInMandatoryFieldsValidationError.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.BlankSpacesInMandatoryFieldsValidationError.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.TrendyolTestScenarios.BlankSpacesInMandatoryFieldsValidationError.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.TrendyolTestScenarios.BuyProductsInCart">
+             <summary>
+            The BuyProductsInCart recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.TrendyolTestScenarios.BuyProductsInCart.repo">
+            <summary>
+            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.BuyProductsInCart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.BuyProductsInCart.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.BuyProductsInCart.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.BuyProductsInCart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.BuyProductsInCart.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.TrendyolTestScenarios.BuyProductsInCart.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.TrendyolTestScenarios.EmptyMandatoryFieldsValidationError">
+             <summary>
+            The EmptyMandatoryFieldsValidationError recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.TrendyolTestScenarios.EmptyMandatoryFieldsValidationError.repo">
+            <summary>
+            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.EmptyMandatoryFieldsValidationError.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.EmptyMandatoryFieldsValidationError.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.EmptyMandatoryFieldsValidationError.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.EmptyMandatoryFieldsValidationError.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.EmptyMandatoryFieldsValidationError.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.TrendyolTestScenarios.EmptyMandatoryFieldsValidationError.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.TrendyolTestScenarios.RegistrationPageSpecifiedFieldsVisibility">
+             <summary>
+            The RegistrationPageSpecifiedFieldsVisibility recording.
+             </summary>
+        </member>
+        <member name="F:RonwellTask.TrendyolTestScenarios.RegistrationPageSpecifiedFieldsVisibility.repo">
+            <summary>
+            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.RegistrationPageSpecifiedFieldsVisibility.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.RegistrationPageSpecifiedFieldsVisibility.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.RegistrationPageSpecifiedFieldsVisibility.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.RegistrationPageSpecifiedFieldsVisibility.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RonwellTask.TrendyolTestScenarios.RegistrationPageSpecifiedFieldsVisibility.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.TrendyolTestScenarios.RegistrationPageSpecifiedFieldsVisibility.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:RonwellTask.TrendyolTestScenarios.ReportAnswerQuestionInHelpSection">
              <summary>
             The ReportAnswerQuestionInHelpSection recording.
@@ -1401,27 +1740,27 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="T:RonwellTask.TrendyolTestScenarios.VerifyEnteringBlankSpacesMandatoryFieldsLeadsValidationError">
+        <member name="T:RonwellTask.TrendyolTestScenarios.SuccessfullLogout">
              <summary>
-            The VerifyEnteringBlankSpacesMandatoryFieldsLeadsValidationError recording.
+            The SuccessfullLogout recording.
              </summary>
         </member>
-        <member name="F:RonwellTask.TrendyolTestScenarios.VerifyEnteringBlankSpacesMandatoryFieldsLeadsValidationError.repo">
+        <member name="F:RonwellTask.TrendyolTestScenarios.SuccessfullLogout.repo">
             <summary>
             Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
             </summary>
         </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyEnteringBlankSpacesMandatoryFieldsLeadsValidationError.#ctor">
+        <member name="M:RonwellTask.TrendyolTestScenarios.SuccessfullLogout.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyEnteringBlankSpacesMandatoryFieldsLeadsValidationError.Start">
+        <member name="M:RonwellTask.TrendyolTestScenarios.SuccessfullLogout.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.VerifyEnteringBlankSpacesMandatoryFieldsLeadsValidationError.Instance"/>.
+            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.SuccessfullLogout.Instance"/>.
             </summary>
         </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyEnteringBlankSpacesMandatoryFieldsLeadsValidationError.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:RonwellTask.TrendyolTestScenarios.SuccessfullLogout.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -1429,247 +1768,13 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyEnteringBlankSpacesMandatoryFieldsLeadsValidationError.Init">
+        <member name="M:RonwellTask.TrendyolTestScenarios.SuccessfullLogout.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:RonwellTask.TrendyolTestScenarios.VerifyEnteringBlankSpacesMandatoryFieldsLeadsValidationError.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:RonwellTask.TrendyolTestScenarios.VerifyNotFillingMandatoryFieldsClickingSubmitLeatValidationError">
-             <summary>
-            The VerifyNotFillingMandatoryFieldsClickingSubmitLeatValidationError recording.
-             </summary>
-        </member>
-        <member name="F:RonwellTask.TrendyolTestScenarios.VerifyNotFillingMandatoryFieldsClickingSubmitLeatValidationError.repo">
-            <summary>
-            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyNotFillingMandatoryFieldsClickingSubmitLeatValidationError.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyNotFillingMandatoryFieldsClickingSubmitLeatValidationError.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.VerifyNotFillingMandatoryFieldsClickingSubmitLeatValidationError.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyNotFillingMandatoryFieldsClickingSubmitLeatValidationError.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyNotFillingMandatoryFieldsClickingSubmitLeatValidationError.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.TrendyolTestScenarios.VerifyNotFillingMandatoryFieldsClickingSubmitLeatValidationError.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:RonwellTask.TrendyolTestScenarios.VerifySpecifiedFieldsRegistrationPage">
-             <summary>
-            The VerifySpecifiedFieldsRegistrationPage recording.
-             </summary>
-        </member>
-        <member name="F:RonwellTask.TrendyolTestScenarios.VerifySpecifiedFieldsRegistrationPage.repo">
-            <summary>
-            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifySpecifiedFieldsRegistrationPage.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifySpecifiedFieldsRegistrationPage.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.VerifySpecifiedFieldsRegistrationPage.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifySpecifiedFieldsRegistrationPage.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifySpecifiedFieldsRegistrationPage.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.TrendyolTestScenarios.VerifySpecifiedFieldsRegistrationPage.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:RonwellTask.TrendyolTestScenarios.VerifyUserAddCartProducts">
-             <summary>
-            The VerifyUserAddCartProducts recording.
-             </summary>
-        </member>
-        <member name="F:RonwellTask.TrendyolTestScenarios.VerifyUserAddCartProducts.repo">
-            <summary>
-            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserAddCartProducts.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserAddCartProducts.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.VerifyUserAddCartProducts.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserAddCartProducts.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserAddCartProducts.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.TrendyolTestScenarios.VerifyUserAddCartProducts.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:RonwellTask.TrendyolTestScenarios.VerifyUserAddProductsToFavorites">
-             <summary>
-            The VerifyUserAddProductsToFavorites recording.
-             </summary>
-        </member>
-        <member name="F:RonwellTask.TrendyolTestScenarios.VerifyUserAddProductsToFavorites.repo">
-            <summary>
-            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserAddProductsToFavorites.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserAddProductsToFavorites.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.VerifyUserAddProductsToFavorites.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserAddProductsToFavorites.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserAddProductsToFavorites.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.TrendyolTestScenarios.VerifyUserAddProductsToFavorites.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:RonwellTask.TrendyolTestScenarios.VerifyUserLogOutSuccessfully">
-             <summary>
-            The VerifyUserLogOutSuccessfully recording.
-             </summary>
-        </member>
-        <member name="F:RonwellTask.TrendyolTestScenarios.VerifyUserLogOutSuccessfully.repo">
-            <summary>
-            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserLogOutSuccessfully.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserLogOutSuccessfully.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.VerifyUserLogOutSuccessfully.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserLogOutSuccessfully.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserLogOutSuccessfully.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.TrendyolTestScenarios.VerifyUserLogOutSuccessfully.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:RonwellTask.TrendyolTestScenarios.VerifyUserSuccessfullyBuyProductInCart">
-             <summary>
-            The VerifyUserSuccessfullyBuyProductInCart recording.
-             </summary>
-        </member>
-        <member name="F:RonwellTask.TrendyolTestScenarios.VerifyUserSuccessfullyBuyProductInCart.repo">
-            <summary>
-            Holds an instance of the global::RonwellTask.RonwellTaskRepository repository.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserSuccessfullyBuyProductInCart.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserSuccessfullyBuyProductInCart.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:RonwellTask.TrendyolTestScenarios.VerifyUserSuccessfullyBuyProductInCart.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserSuccessfullyBuyProductInCart.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:RonwellTask.TrendyolTestScenarios.VerifyUserSuccessfullyBuyProductInCart.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.TrendyolTestScenarios.VerifyUserSuccessfullyBuyProductInCart.Instance">
+        <member name="P:RonwellTask.TrendyolTestScenarios.SuccessfullLogout.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>

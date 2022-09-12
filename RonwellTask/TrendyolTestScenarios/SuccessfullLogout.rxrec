@@ -76,6 +76,23 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3614ad8c-3b3e-4cda-9c27-748ad9f2ecc9"
+		sx="1896"
+		sy="12"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="61770150-ad1d-4c8c-9026-854ad7c9c1be"

@@ -35,6 +35,7 @@ namespace RonwellTask
         RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder _erkekbutikleriyenisezonueruenler;
         RonwellTaskRepositoryFolders.SleepyExtraGuenluekAktiviteUltraPakAppFolder _sleepyextraguenluekaktiviteultrapak;
         RonwellTaskRepositoryFolders.FavorilerTrendyolGoogleChromeAppFolder _favorilertrendyolgooglechrome;
+        RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder _sepetimtrendyolgooglechrome;
         RepoItemInfo _girişyapInfo;
 
         /// <summary>
@@ -60,6 +61,7 @@ namespace RonwellTask
             _erkekbutikleriyenisezonueruenler = new RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder(this);
             _sleepyextraguenluekaktiviteultrapak = new RonwellTaskRepositoryFolders.SleepyExtraGuenluekAktiviteUltraPakAppFolder(this);
             _favorilertrendyolgooglechrome = new RonwellTaskRepositoryFolders.FavorilerTrendyolGoogleChromeAppFolder(this);
+            _sepetimtrendyolgooglechrome = new RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder(this);
             _girişyapInfo = new RepoItemInfo(this, "GirişYap", "/form[@title>'https://www.trendyol.com/']/element[@automationid='305295744']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]/container/container[1]//text[@accessiblename='Giriş Yap']", 30000, null, "8fab4b6a-3ae6-44d7-abe3-ce14a85fac25");
         }
 
@@ -173,6 +175,15 @@ namespace RonwellTask
         public virtual RonwellTaskRepositoryFolders.FavorilerTrendyolGoogleChromeAppFolder FavorilerTrendyolGoogleChrome
         {
             get { return _favorilertrendyolgooglechrome; }
+        }
+
+        /// <summary>
+        /// The SepetimTrendyolGoogleChrome folder.
+        /// </summary>
+        [RepositoryFolder("24e13527-f785-4c0f-99b1-83b4da1f260c")]
+        public virtual RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder SepetimTrendyolGoogleChrome
+        {
+            get { return _sepetimtrendyolgooglechrome; }
         }
     }
 
@@ -1008,6 +1019,7 @@ namespace RonwellTask
             RepoItemInfo _none2Info;
             RepoItemInfo _oedemeyapInfo;
             RepoItemInfo _grouping11Info;
+            RepoItemInfo _linksepetim22Info;
 
             /// <summary>
             /// Creates a new EnTrendUEruenlerTuerkiyeninOnlineAl  folder.
@@ -1041,6 +1053,7 @@ namespace RonwellTask
                 _none2Info = new RepoItemInfo(this, "None2", "element[@automationid='200849408']/container/container//link", ".//link", 30000, null, "4582e2ca-45e2-45da-8d8a-5a2ca213ed18");
                 _oedemeyapInfo = new RepoItemInfo(this, "OEdemeYap", "?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Ödeme Yap']", ".//container[@accessiblerole='Grouping']/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Ödeme Yap']", 30000, null, "08bdafb2-93df-4c73-8302-faeb4df41635");
                 _grouping11Info = new RepoItemInfo(this, "Grouping11", "element[@automationid='200849408']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]/container/container[1]/container[@accessiblerole='Grouping']", "?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/container[@accessiblerole='Grouping']/container[1]/container[@accessiblerole='Grouping']", 30000, null, "236d0753-2fc6-4f4b-a0b4-4e36312eb90a");
+                _linksepetim22Info = new RepoItemInfo(this, "LinkSepetim22", "element[@automationid='73598400']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='  Sepetim 2']", ".//link[@accessiblename='  Sepetim 2']", 30000, null, "2352ad2b-0073-4e15-8366-3adf4ebaaeb7");
             }
 
             /// <summary>
@@ -1688,6 +1701,30 @@ namespace RonwellTask
                 get
                 {
                     return _grouping11Info;
+                }
+            }
+
+            /// <summary>
+            /// The LinkSepetim22 item.
+            /// </summary>
+            [RepositoryItem("2352ad2b-0073-4e15-8366-3adf4ebaaeb7")]
+            public virtual Ranorex.Link LinkSepetim22
+            {
+                get
+                {
+                    return _linksepetim22Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LinkSepetim22 item info.
+            /// </summary>
+            [RepositoryItemInfo("2352ad2b-0073-4e15-8366-3adf4ebaaeb7")]
+            public virtual RepoItemInfo LinkSepetim22Info
+            {
+                get
+                {
+                    return _linksepetim22Info;
                 }
             }
         }
@@ -2841,8 +2878,6 @@ namespace RonwellTask
         [RepositoryFolder("fe045fcb-6f2a-4d6d-a79d-4ea6d5d7ad71")]
         public partial class SleepyExtraGuenluekAktiviteUltraPakAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _sepeteekleInfo;
-            RepoItemInfo _sepeteekle1Info;
             RepoItemInfo _linksepetim3Info;
             RepoItemInfo _groupingInfo;
             RepoItemInfo _linksepetim2Info;
@@ -2853,8 +2888,6 @@ namespace RonwellTask
             public SleepyExtraGuenluekAktiviteUltraPakAppFolder(RepoGenBaseFolder parentFolder) :
                     base("SleepyExtraGuenluekAktiviteUltraPak", "/form[@title>'Sleepy Extra Günlük Aktivite']", parentFolder, 30000, null, true, "fe045fcb-6f2a-4d6d-a79d-4ea6d5d7ad71", "")
             {
-                _sepeteekleInfo = new RepoItemInfo(this, "SepeteEkle", "?/?/container[@accessiblename>'Sleepy Extra Günlük Aktivite']/container[1]/container[4]/button[@accessiblename='Sepete Ekle']", ".//button[@accessiblename='Sepete Ekle']", 30000, null, "b51e1f53-f8a7-4a7a-984b-540595513cc8");
-                _sepeteekle1Info = new RepoItemInfo(this, "SepeteEkle1", "?/?/container[@accessiblename>'Riot Games League Of Legends']/container[1]/container[4]/button[@accessiblename='Sepete Ekle']", ".//button[@accessiblename='Sepete Ekle']", 30000, null, "880faa0b-daa7-46ff-9382-9c455da70f22");
                 _linksepetim3Info = new RepoItemInfo(this, "LinkSepetim3", "element[@automationid='73610112']/container[@accessiblename>'Sleepy Extra Günlük Aktivite']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='  Sepetim 3']", ".//link[@accessiblename='  Sepetim 3']", 30000, null, "384aa77e-f4fd-4d4e-a8e0-80ee65d38bde");
                 _groupingInfo = new RepoItemInfo(this, "Grouping", "?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']", "?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']", 30000, null, "7a1c9e33-5a6a-4d81-bc42-53ec68e16b39");
                 _linksepetim2Info = new RepoItemInfo(this, "LinkSepetim2", "element[@automationid='73610112']/container[@accessiblename>'Sleepy Extra Günlük Aktivite']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='  Sepetim 2']", ".//link[@accessiblename='  Sepetim 2']", 30000, null, "bc45fe72-5e7e-41c0-baf8-96c8abddffa4");
@@ -2881,54 +2914,6 @@ namespace RonwellTask
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SepeteEkle item.
-            /// </summary>
-            [RepositoryItem("b51e1f53-f8a7-4a7a-984b-540595513cc8")]
-            public virtual Ranorex.Button SepeteEkle
-            {
-                get
-                {
-                    return _sepeteekleInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SepeteEkle item info.
-            /// </summary>
-            [RepositoryItemInfo("b51e1f53-f8a7-4a7a-984b-540595513cc8")]
-            public virtual RepoItemInfo SepeteEkleInfo
-            {
-                get
-                {
-                    return _sepeteekleInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SepeteEkle1 item.
-            /// </summary>
-            [RepositoryItem("880faa0b-daa7-46ff-9382-9c455da70f22")]
-            public virtual Ranorex.Button SepeteEkle1
-            {
-                get
-                {
-                    return _sepeteekle1Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SepeteEkle1 item info.
-            /// </summary>
-            [RepositoryItemInfo("880faa0b-daa7-46ff-9382-9c455da70f22")]
-            public virtual RepoItemInfo SepeteEkle1Info
-            {
-                get
-                {
-                    return _sepeteekle1Info;
                 }
             }
 
@@ -3145,6 +3130,280 @@ namespace RonwellTask
                 get
                 {
                     return _grouping2Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SepetimTrendyolGoogleChromeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("24e13527-f785-4c0f-99b1-83b4da1f260c")]
+        public partial class SepetimTrendyolGoogleChromeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _graphicInfo;
+            RepoItemInfo _graphic1Info;
+            RepoItemInfo _sepeteekleInfo;
+            RepoItemInfo _sepeteekle1Info;
+            RepoItemInfo _noneInfo;
+            RepoItemInfo _none1Info;
+            RepoItemInfo _oedemeyapInfo;
+            RepoItemInfo _sepetionaylaInfo;
+            RepoItemInfo _kaydetvedevametInfo;
+
+            /// <summary>
+            /// Creates a new SepetimTrendyolGoogleChrome  folder.
+            /// </summary>
+            public SepetimTrendyolGoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SepetimTrendyolGoogleChrome", "/form[@title>'Sepetim - Trendyol - Google']", parentFolder, 30000, null, true, "24e13527-f785-4c0f-99b1-83b4da1f260c", "")
+            {
+                _graphicInfo = new RepoItemInfo(this, "Graphic", "?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container/container[8]/picture[@accessiblerole='Graphic']", ".//picture[@accessiblerole='Graphic']", 30000, null, "aaf72215-9177-4fde-bdf4-f1b1d42d48b2");
+                _graphic1Info = new RepoItemInfo(this, "Graphic1", "?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container/container[14]/picture[@accessiblerole='Graphic']", "?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']/container[14]/picture[@accessiblerole='Graphic']", 30000, null, "c8c973e4-4e0f-4813-a6c3-0b96d2f82b68");
+                _sepeteekleInfo = new RepoItemInfo(this, "SepeteEkle", "?/?/container[@accessiblename>'Riot Games League Of Legends']/container[1]/container[4]/button[@accessiblename='Sepete Ekle']/?/?/text[@accessiblename='Sepete Ekle']", ".//text[@accessiblename='Sepete Ekle']", 30000, null, "56e2f751-9458-4ece-a1bb-d612c05df37e");
+                _sepeteekle1Info = new RepoItemInfo(this, "SepeteEkle1", "?/?/container[@accessiblename>'Sleepy Extra Günlük Aktivite']/container[1]/container[4]/button[@accessiblename='Sepete Ekle']/?/?/text[@accessiblename='Sepete Ekle']", ".//text[@accessiblename='Sepete Ekle']", 30000, null, "38a1a299-6e94-4020-a5e4-f59c50555fe8");
+                _noneInfo = new RepoItemInfo(this, "None", "?/?/container/?/?/container", ".//container", 30000, null, "a86148ab-bd0e-4ca5-abe5-6127d7e0cd15");
+                _none1Info = new RepoItemInfo(this, "None1", "?/?/container/container", ".//container", 30000, null, "25893205-edcd-47a3-88b3-a9ad76523f85");
+                _oedemeyapInfo = new RepoItemInfo(this, "OEdemeYap", "?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='Ödeme Yap']", ".//button[@accessiblename='Ödeme Yap']", 30000, null, "db7ce295-20a7-4c6e-b032-0f98e96f8b24");
+                _sepetionaylaInfo = new RepoItemInfo(this, "SepetiOnayla", "?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']/container[16]/link[1]/text[@accessiblename='Sepeti Onayla']", ".//text[@accessiblename='Sepeti Onayla']", 30000, null, "e0abd441-345b-46ad-a0a1-51d212aaa25f");
+                _kaydetvedevametInfo = new RepoItemInfo(this, "KaydetVeDevamEt", "?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Kaydet ve Devam Et']", ".//container[@accessiblerole='Grouping']/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Kaydet ve Devam Et']", 30000, null, "5924e3c2-d96b-4bae-8c28-b4bd48fc544c");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("24e13527-f785-4c0f-99b1-83b4da1f260c")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("24e13527-f785-4c0f-99b1-83b4da1f260c")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Graphic item.
+            /// </summary>
+            [RepositoryItem("aaf72215-9177-4fde-bdf4-f1b1d42d48b2")]
+            public virtual Ranorex.Picture Graphic
+            {
+                get
+                {
+                    return _graphicInfo.CreateAdapter<Ranorex.Picture>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Graphic item info.
+            /// </summary>
+            [RepositoryItemInfo("aaf72215-9177-4fde-bdf4-f1b1d42d48b2")]
+            public virtual RepoItemInfo GraphicInfo
+            {
+                get
+                {
+                    return _graphicInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Graphic1 item.
+            /// </summary>
+            [RepositoryItem("c8c973e4-4e0f-4813-a6c3-0b96d2f82b68")]
+            public virtual Ranorex.Picture Graphic1
+            {
+                get
+                {
+                    return _graphic1Info.CreateAdapter<Ranorex.Picture>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Graphic1 item info.
+            /// </summary>
+            [RepositoryItemInfo("c8c973e4-4e0f-4813-a6c3-0b96d2f82b68")]
+            public virtual RepoItemInfo Graphic1Info
+            {
+                get
+                {
+                    return _graphic1Info;
+                }
+            }
+
+            /// <summary>
+            /// The SepeteEkle item.
+            /// </summary>
+            [RepositoryItem("56e2f751-9458-4ece-a1bb-d612c05df37e")]
+            public virtual Ranorex.Text SepeteEkle
+            {
+                get
+                {
+                    return _sepeteekleInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SepeteEkle item info.
+            /// </summary>
+            [RepositoryItemInfo("56e2f751-9458-4ece-a1bb-d612c05df37e")]
+            public virtual RepoItemInfo SepeteEkleInfo
+            {
+                get
+                {
+                    return _sepeteekleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SepeteEkle1 item.
+            /// </summary>
+            [RepositoryItem("38a1a299-6e94-4020-a5e4-f59c50555fe8")]
+            public virtual Ranorex.Text SepeteEkle1
+            {
+                get
+                {
+                    return _sepeteekle1Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SepeteEkle1 item info.
+            /// </summary>
+            [RepositoryItemInfo("38a1a299-6e94-4020-a5e4-f59c50555fe8")]
+            public virtual RepoItemInfo SepeteEkle1Info
+            {
+                get
+                {
+                    return _sepeteekle1Info;
+                }
+            }
+
+            /// <summary>
+            /// The None item.
+            /// </summary>
+            [RepositoryItem("a86148ab-bd0e-4ca5-abe5-6127d7e0cd15")]
+            public virtual Ranorex.Container None
+            {
+                get
+                {
+                    return _noneInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The None item info.
+            /// </summary>
+            [RepositoryItemInfo("a86148ab-bd0e-4ca5-abe5-6127d7e0cd15")]
+            public virtual RepoItemInfo NoneInfo
+            {
+                get
+                {
+                    return _noneInfo;
+                }
+            }
+
+            /// <summary>
+            /// The None1 item.
+            /// </summary>
+            [RepositoryItem("25893205-edcd-47a3-88b3-a9ad76523f85")]
+            public virtual Ranorex.Container None1
+            {
+                get
+                {
+                    return _none1Info.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The None1 item info.
+            /// </summary>
+            [RepositoryItemInfo("25893205-edcd-47a3-88b3-a9ad76523f85")]
+            public virtual RepoItemInfo None1Info
+            {
+                get
+                {
+                    return _none1Info;
+                }
+            }
+
+            /// <summary>
+            /// The OEdemeYap item.
+            /// </summary>
+            [RepositoryItem("db7ce295-20a7-4c6e-b032-0f98e96f8b24")]
+            public virtual Ranorex.Button OEdemeYap
+            {
+                get
+                {
+                    return _oedemeyapInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OEdemeYap item info.
+            /// </summary>
+            [RepositoryItemInfo("db7ce295-20a7-4c6e-b032-0f98e96f8b24")]
+            public virtual RepoItemInfo OEdemeYapInfo
+            {
+                get
+                {
+                    return _oedemeyapInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SepetiOnayla item.
+            /// </summary>
+            [RepositoryItem("e0abd441-345b-46ad-a0a1-51d212aaa25f")]
+            public virtual Ranorex.Text SepetiOnayla
+            {
+                get
+                {
+                    return _sepetionaylaInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SepetiOnayla item info.
+            /// </summary>
+            [RepositoryItemInfo("e0abd441-345b-46ad-a0a1-51d212aaa25f")]
+            public virtual RepoItemInfo SepetiOnaylaInfo
+            {
+                get
+                {
+                    return _sepetionaylaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The KaydetVeDevamEt item.
+            /// </summary>
+            [RepositoryItem("5924e3c2-d96b-4bae-8c28-b4bd48fc544c")]
+            public virtual Ranorex.Button KaydetVeDevamEt
+            {
+                get
+                {
+                    return _kaydetvedevametInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The KaydetVeDevamEt item info.
+            /// </summary>
+            [RepositoryItemInfo("5924e3c2-d96b-4bae-8c28-b4bd48fc544c")]
+            public virtual RepoItemInfo KaydetVeDevamEtInfo
+            {
+                get
+                {
+                    return _kaydetvedevametInfo;
                 }
             }
         }

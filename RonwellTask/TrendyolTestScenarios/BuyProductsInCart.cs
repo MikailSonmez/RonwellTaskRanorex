@@ -79,25 +79,30 @@ namespace RonwellTask.TrendyolTestScenarios
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.LinkSepetim21' at 56;4.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.LinkSepetim21Info, new RecordItemIndex(0));
-            repo.EnTrendUEruenlerTuerkiyeninOnlineAl.LinkSepetim21.Click("56;4");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.LinkSepetim22' at 35;7.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.LinkSepetim22Info, new RecordItemIndex(0));
+            repo.EnTrendUEruenlerTuerkiyeninOnlineAl.LinkSepetim22.Click("35;7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.None1' at 1397;513.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.None1Info, new RecordItemIndex(1));
-            repo.EnTrendUEruenlerTuerkiyeninOnlineAl.None1.Click("1397;513");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SepetimTrendyolGoogleChrome.SepetiOnayla' at 55;10.", repo.SepetimTrendyolGoogleChrome.SepetiOnaylaInfo, new RecordItemIndex(1));
+            repo.SepetimTrendyolGoogleChrome.SepetiOnayla.Click("55;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.None2' at 128;46.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.None2Info, new RecordItemIndex(2));
-            repo.EnTrendUEruenlerTuerkiyeninOnlineAl.None2.Click("128;46");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SepetimTrendyolGoogleChrome.KaydetVeDevamEt' at 128;31.", repo.SepetimTrendyolGoogleChrome.KaydetVeDevamEtInfo, new RecordItemIndex(2));
+            repo.SepetimTrendyolGoogleChrome.KaydetVeDevamEt.Click("128;31");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.OEdemeYap'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.OEdemeYapInfo, new RecordItemIndex(3));
-            Validate.AttributeEqual(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.OEdemeYapInfo, "Visible", "True");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'SepetimTrendyolGoogleChrome.OEdemeYap'.", repo.SepetimTrendyolGoogleChrome.OEdemeYapInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.SepetimTrendyolGoogleChrome.OEdemeYapInfo, "Visible", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Ödeme Yap') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.OEdemeYap'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.OEdemeYapInfo, new RecordItemIndex(4));
-            Validate.AttributeEqual(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.OEdemeYapInfo, "Text", "Ödeme Yap");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Ödeme Yap') on item 'SepetimTrendyolGoogleChrome.OEdemeYap'.", repo.SepetimTrendyolGoogleChrome.OEdemeYapInfo, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.SepetimTrendyolGoogleChrome.OEdemeYapInfo, "Text", "Ödeme Yap");
             Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click at {X=1896,Y=12}.", new RecordItemIndex(5));
+            Mouse.MoveTo(1896, 12);
+            Mouse.Click(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(0);
             
         }
 

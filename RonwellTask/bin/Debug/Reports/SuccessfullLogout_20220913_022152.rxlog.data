@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.39s"
+		durationms="7385"
+		type="root"
+		rid="73e6900b0f25380"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mikai"
+		rxversion="10.2.4.0"
+		host="DESKTOP-6A5MND1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/13/2022 2:21:55 AM"
+		timestampiso="2022-09-12T23:21:55"
+		endtime="9/13/2022 2:22:03 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SuccessfullLogout">
+		<detail>
+			SuccessfullLogout
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.710"
+			timeRelativeToTestModuleStartTime="00:04.710"
+			timeWallClock="02:22:00"
+			time="00:04.710"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=1287,Y=127}.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\SuccessfullLogout.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.039"
+			timeRelativeToTestModuleStartTime="00:05.039"
+			timeWallClock="02:22:00"
+			time="00:05.039"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=1250,Y=460}.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\SuccessfullLogout.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.349"
+			timeRelativeToTestModuleStartTime="00:05.349"
+			timeWallClock="02:22:01"
+			time="00:05.349"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click at {X=1250,Y=460}.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\SuccessfullLogout.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.003"
+			timeRelativeToTestModuleStartTime="00:07.003"
+			timeWallClock="02:22:02"
+			time="00:07.003"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click at {X=1896,Y=12}.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\SuccessfullLogout.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

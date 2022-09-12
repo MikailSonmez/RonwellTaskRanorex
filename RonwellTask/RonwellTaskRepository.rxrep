@@ -640,6 +640,17 @@ KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
 			searchtimeout="30000ms">
 				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[@automationid='200849408']/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]/container/container[1]/container[@accessiblerole='Grouping']
 			</item>
+			<item
+			addcaps="link,accessible"
+			capname="link"
+			id="2352ad2b-0073-4e15-8366-3adf4ebaaeb7"
+			name="LinkSepetim22"
+			refimgid="7e325db4-47e0-4827-8649-22c0c5791c7b"
+			refpath="/form[@title>'En Trend Ürünler Türkiye''nin']/element/container/container[1]/container[1]/container/container/container[2]/container/container[2]/link[@accessiblename='  Sepetim 2']"
+			robustPath="/form[@title>'En Trend Ürünler Türkiye''nin']//link[@accessiblename='  Sepetim 2']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[@automationid='73598400']/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='&#59648; &#59736; Sepetim 2']
+			</item>
 			<basepath>
 				/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']
 			</basepath>
@@ -1159,28 +1170,6 @@ KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
 		searchtimeout="30000ms"
 		usecache="True">
 			<item
-			addcaps="button,accessible"
-			capname="button"
-			id="b51e1f53-f8a7-4a7a-984b-540595513cc8"
-			name="SepeteEkle"
-			refimgid="fc395ce5-33cf-4893-acb6-d5db43c000e7"
-			refpath="/form[@title>'Sleepy Extra Günlük Aktivite']/element/container/container[1]/container[4]/button[@accessiblename='Sepete Ekle']"
-			robustPath="/form[@title>'Sleepy Extra Günlük Aktivite']//button[@accessiblename='Sepete Ekle']"
-			searchtimeout="30000ms">
-				/form[@title&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/?/?/container[@accessiblename&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/container[1]/container[4]/button[@accessiblename='Sepete Ekle']
-			</item>
-			<item
-			addcaps="button,accessible"
-			capname="button"
-			id="880faa0b-daa7-46ff-9382-9c455da70f22"
-			name="SepeteEkle1"
-			refimgid="f514b06b-52a7-458a-9134-ec3b5f2eecc1"
-			refpath="/form[@title>'Riot Games League Of Legends']/element/container/container[1]/container[4]/button[@accessiblename='Sepete Ekle']"
-			robustPath="/form[@title>'Sleepy Extra Günlük Aktivite']//button[@accessiblename='Sepete Ekle']"
-			searchtimeout="30000ms">
-				/form[@title&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/?/?/container[@accessiblename&gt;'Riot Games League Of Legends']/container[1]/container[4]/button[@accessiblename='Sepete Ekle']
-			</item>
-			<item
 			addcaps="link,accessible"
 			capname="link"
 			id="384aa77e-f4fd-4d4e-a8e0-80ee65d38bde"
@@ -1287,6 +1276,133 @@ KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
 			</item>
 			<basepath>
 				/form[@title&gt;'Favoriler - Trendyol - Google']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJxSURBVDhPrdJbSBRhGAbg/6rAAhcKkjDdNbY8
+tM6saxelzo5b2cEOeF8sIdFFiF6EF1mtSBIJJpuh5aEVO4MUdLiqdT0LWcxNWRC5kae1cmc9BLoz
+O2/fbANieOkHD+/AfO8wM/xs3Sfo5Ew/XbmeGZcjOOPKhS7kckgh0eGbdnJmY23tmRH3ukOFDplg
+WtTlaFTElNOuTQp2bVqwh0MCX26srx79Bi3qy5gS7JgUeEJZwGOigNMm8vUk+Rwm8mxuo/ZvON8p
+85eDOTIt0CKHcfKrrBQRbx3mWuoQuVGMSI0d4Wpek0mklpchcSajzpj9YUlHXYWIH3nZcZG2JgQ+
+R3HxyR+c9y3ipRRFbPwO1GEeyjBHySE6lO0x6oxld56U8tpO4F0RvWJJkfZCWobjaoTIcTmkezQK
+9aObyllQhzJJxphRZ8zWcVwjOOdxYbb+OkrbF8BfCRPZyDAqHi0iNlYLZXAXlAGrpgxaYdQZy7pX
+jKz2Yzot8LgB5Q8WsKdqFraqMGyXCeXZtnnEvtVAHUgjFqj9lpUHZLQeDWa0HgEl3K8q4R9dRual
+WcPveD7/sAR1ZB8Vd8QpfcmSUWcsvaXIk373MHS7SeNIJ569X8KZ1jlc6JzH20/LGP/qhdKbZNiG
+WF+Sz6gzltrgNFmbDskE1mZCKd4/jWv9TXGVr8vw/c12KD1b46I9W2QEElefyrRG0b3z9gGNQJfW
+6NJ0+nV7F/24gMmQCLXHtPZpTPU6Kyy3CmWzV4TFWwg985v3Q+neDMW/SYv6E2S1O2H1Kfx/6HPM
+KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="24e13527-f785-4c0f-99b1-83b4da1f260c"
+		isrooted="True"
+		name="SepetimTrendyolGoogleChrome"
+		refpath="/form[@title='Sepetim - Trendyol - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="picture,accessible"
+			capname="picture"
+			id="aaf72215-9177-4fde-bdf4-f1b1d42d48b2"
+			name="Graphic"
+			refimgid="8f68732f-d1e1-4977-b4ae-8d8921e660d1"
+			refpath="/form[@title='Sepetim - Trendyol - Google Chrome']/element[@automationid='73602432']/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']/container[8]/picture[@accessiblerole='Graphic']"
+			robustPath="/form[@title>'Sepetim - Trendyol - Google']//picture[@accessiblerole='Graphic']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container/container[8]/picture[@accessiblerole='Graphic']
+			</item>
+			<item
+			addcaps="picture,accessible"
+			capname="picture"
+			id="c8c973e4-4e0f-4813-a6c3-0b96d2f82b68"
+			name="Graphic1"
+			refimgid="8d07ad14-7851-4a49-97e8-5f1a1d661d5e"
+			refpath="/form[@title='Sepetim - Trendyol - Google Chrome']/element[@automationid='73602432']/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']/container[14]/picture[@accessiblerole='Graphic']"
+			robustPath="/form[@title>'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']/container[14]/picture[@accessiblerole='Graphic']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container/container[14]/picture[@accessiblerole='Graphic']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="56e2f751-9458-4ece-a1bb-d612c05df37e"
+			name="SepeteEkle"
+			refimgid="ccf98db7-32f8-4e12-9de0-62a6c8b2a449"
+			refpath="/form[@title>'Riot Games League Of Legends']/element/container/container[1]/container[4]/button/container/text[@accessiblename='Sepete Ekle']"
+			robustPath="/form[@title>'Sepetim - Trendyol - Google']//text[@accessiblename='Sepete Ekle']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container[@accessiblename&gt;'Riot Games League Of Legends']/container[1]/container[4]/button[@accessiblename='Sepete Ekle']/?/?/text[@accessiblename='Sepete Ekle']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="38a1a299-6e94-4020-a5e4-f59c50555fe8"
+			name="SepeteEkle1"
+			refimgid="f266811b-5639-4195-a03d-3a7f16ee0bd9"
+			refpath="/form[@title>'Sleepy Extra Günlük Aktivite']/element/container/container[1]/container[4]/button/container/text[@accessiblename='Sepete Ekle']"
+			robustPath="/form[@title>'Sepetim - Trendyol - Google']//text[@accessiblename='Sepete Ekle']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container[@accessiblename&gt;'Sleepy Extra G&#252;nl&#252;k Aktivite']/container[1]/container[4]/button[@accessiblename='Sepete Ekle']/?/?/text[@accessiblename='Sepete Ekle']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="a86148ab-bd0e-4ca5-abe5-6127d7e0cd15"
+			name="None"
+			refimgid="2211549f-8b30-4313-a16a-85dadceefd1b"
+			refpath="/form[@title>'Sepetim - Trendyol - Google']/element/container/container/container"
+			robustPath="/form[@title>'Sepetim - Trendyol - Google']//container"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container/?/?/container
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="25893205-edcd-47a3-88b3-a9ad76523f85"
+			name="None1"
+			refimgid="5b50f7ed-69d3-4db6-8f8b-a18eb3909262"
+			refpath="/form[@title>'Ödeme - Trendyol - Google']/element/container/container"
+			robustPath="/form[@title>'Sepetim - Trendyol - Google']//container"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container/container
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="db7ce295-20a7-4c6e-b032-0f98e96f8b24"
+			name="OEdemeYap"
+			refimgid="89b43931-4742-4477-8dfd-a78b19d6c2f4"
+			refpath="/form[@title='Ödeme - Trendyol - Google Chrome']/element[@automationid='73598400']/container[@accessiblename='Ödeme - Trendyol']/container[@accessiblerole='Grouping']/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='Ödeme Yap']"
+			robustPath="/form[@title>'Sepetim - Trendyol - Google']//button[@accessiblename='Ödeme Yap']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='&#214;deme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='&#214;deme Yap']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="e0abd441-345b-46ad-a0a1-51d212aaa25f"
+			name="SepetiOnayla"
+			refimgid="f88d165f-b5ab-46fe-b563-bd688cda9a60"
+			refpath="/form[@title>'Sepetim - Trendyol - Google']/element/container/container[1]/container[3]/container/container[16]/link[1]/text[@accessiblename='Sepeti Onayla']"
+			robustPath="/form[@title>'Sepetim - Trendyol - Google']//text[@accessiblename='Sepeti Onayla']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']/container[16]/link[1]/text[@accessiblename='Sepeti Onayla']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="5924e3c2-d96b-4bae-8c28-b4bd48fc544c"
+			name="KaydetVeDevamEt"
+			refimgid="07f291ca-647f-424d-8a19-a42673d47c7d"
+			refpath="/form[@title>'Ödeme - Trendyol - Google']/element/container/container/container[1]/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Kaydet ve Devam Et']"
+			robustPath="/form[@title>'Sepetim - Trendyol - Google']//container[@accessiblerole='Grouping']/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Kaydet ve Devam Et']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='&#214;deme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Kaydet ve Devam Et']
+			</item>
+			<basepath>
+				/form[@title&gt;'Sepetim - Trendyol - Google']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx

@@ -16,6 +16,12 @@
 			reportlevel="Info;20">
 			</testcase>
 			<testmodule
+			id="3208800f-83fa-4fb9-8db6-62c263f2a51f"
+			name="BlankSpacesInMandatoryFieldsValidationError"
+			ref="7230c08a-61b3-4e64-9e04-ab10e8b090f8"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="34603c01-abc8-4eb6-a882-52436df95355"
 			name="ReportAnswerQuestionInHelpSection"
 			ref="6660227c-abf0-4147-a6da-f2fa810b455a"
@@ -50,21 +56,27 @@
 			name="TestCase">
 			</testcase>
 			<testmodule
-			id="75492e4f-69a0-4c4c-a751-7e2239ac8aa1"
-			name="VerifyUserAddProductsToFavorites"
-			ref="32ec8946-7c4d-4c40-98c1-55e979693189"
+			id="6b3c2b70-d688-4c8b-b846-e5f3c9dc47e3"
+			name="AddProductsToCart"
+			ref="3ee3dd82-21cc-4482-88b9-a895b1bed8cd"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="963bc856-71d7-4a9b-8c47-5670dc307d8e"
-			name="VerifyUserSuccessfullyBuyProductInCart"
-			ref="8b4d8704-86db-4f26-8db0-41bb879c3fde"
+			id="723de50d-1785-4262-b4be-948579eaa4a1"
+			name="SuccessfullLogout"
+			ref="13c5bb0c-11c5-4b6b-aa5e-2e33e932071d"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="9867678b-cc8b-41e6-8f03-46c6db7afe6f"
-			name="VerifySpecifiedFieldsRegistrationPage"
-			ref="93de9e20-4743-4871-bbd8-b26743ff6870"
+			id="85593e42-fe32-4ae1-8da3-34d6157417a7"
+			name="RegistrationPageSpecifiedFieldsVisibility"
+			ref="e69b982b-7437-4a74-9d2b-4528c0a7f50e"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="98d77b54-d2ff-44d3-9981-454c156f2b92"
+			name="EmptyMandatoryFieldsValidationError"
+			ref="7320d157-d5c8-4c89-af58-cdea009605c3"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -79,33 +91,21 @@
 			name="TrendyolTestScenarios">
 			</smartfoldernode>
 			<testmodule
-			id="ad849bdc-43ec-4f92-9f0d-95dc489d71d2"
-			name="VerifyUserAddCartProducts"
-			ref="502812e0-734e-4fdb-a3bc-b671fe2c2ba0"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="ba2b04b9-9ceb-4720-9018-d483c2256de7"
-			name="VerifyNotFillingMandatoryFieldsClickingSubmitLeatValidationError"
-			ref="a3bd8231-8b70-45f7-8337-7077e8d3c477"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="c45ff289-c4b5-4cea-916d-b8b04ca55e5b"
-			name="VerifyUserLogOutSuccessfully"
-			ref="1cacc728-a6b2-414a-a188-36f8b69ff2f5"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="d8abdccd-4155-40bc-9e6c-ef451ecfe04e"
 			name="OpenBrowser"
 			ref="745ff917-8b37-46c7-8eba-52d8cc3e7b44"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="e795f408-161b-4ab1-968e-33be38776afc"
-			name="VerifyEnteringBlankSpacesMandatoryFieldsLeadsValidationError"
-			ref="b1071792-e9c6-4e18-b619-1ba9a3d339ea"
+			id="ed443a66-e581-4c93-9a97-915428085d65"
+			name="BuyProductsInCart"
+			ref="6a6f39d4-a297-4582-b076-1390fa56c905"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="fe852574-279c-4e63-817f-8f1eed1d525a"
+			name="AddProductsToWishlist"
+			ref="37248c75-11ee-44e0-9ec1-7fde99441644"
 			type="Recording">
 			</testmodule>
 		</flatlistofchildren>
@@ -131,32 +131,32 @@
 						id="a9ae1ce0-9a80-4f11-a4ad-1941f66cb506"
 						name="TrendyolTestScenarios">
 							<testmodule
-							id="9867678b-cc8b-41e6-8f03-46c6db7afe6f"
-							name="VerifySpecifiedFieldsRegistrationPage">
+							id="85593e42-fe32-4ae1-8da3-34d6157417a7"
+							name="RegistrationPageSpecifiedFieldsVisibility">
 							</testmodule>
 							<testmodule
-							id="ba2b04b9-9ceb-4720-9018-d483c2256de7"
-							name="VerifyNotFillingMandatoryFieldsClickingSubmitLeatValidationError">
+							id="98d77b54-d2ff-44d3-9981-454c156f2b92"
+							name="EmptyMandatoryFieldsValidationError">
 							</testmodule>
 							<testmodule
-							id="e795f408-161b-4ab1-968e-33be38776afc"
-							name="VerifyEnteringBlankSpacesMandatoryFieldsLeadsValidationError">
+							id="3208800f-83fa-4fb9-8db6-62c263f2a51f"
+							name="BlankSpacesInMandatoryFieldsValidationError">
 							</testmodule>
 							<testmodule
-							id="ad849bdc-43ec-4f92-9f0d-95dc489d71d2"
-							name="VerifyUserAddCartProducts">
+							id="6b3c2b70-d688-4c8b-b846-e5f3c9dc47e3"
+							name="AddProductsToCart">
 							</testmodule>
 							<testmodule
-							id="75492e4f-69a0-4c4c-a751-7e2239ac8aa1"
-							name="VerifyUserAddProductsToFavorites">
+							id="fe852574-279c-4e63-817f-8f1eed1d525a"
+							name="AddProductsToWishlist">
 							</testmodule>
 							<testmodule
-							id="963bc856-71d7-4a9b-8c47-5670dc307d8e"
-							name="VerifyUserSuccessfullyBuyProductInCart">
+							id="ed443a66-e581-4c93-9a97-915428085d65"
+							name="BuyProductsInCart">
 							</testmodule>
 							<testmodule
-							id="c45ff289-c4b5-4cea-916d-b8b04ca55e5b"
-							name="VerifyUserLogOutSuccessfully">
+							id="723de50d-1785-4262-b4be-948579eaa4a1"
+							name="SuccessfullLogout">
 							</testmodule>
 							<testmodule
 							id="34603c01-abc8-4eb6-a882-52436df95355"

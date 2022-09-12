@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="27.63s"
+		durationms="27628"
+		type="root"
+		rid="cbba6d93ece7f8c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mikai"
+		rxversion="10.2.4.0"
+		host="DESKTOP-6A5MND1"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/13/2022 2:02:48 AM"
+		timestampiso="2022-09-12T23:02:48"
+		endtime="9/13/2022 2:03:16 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="AddProductsToWishlist">
+		<detail>
+			AddProductsToWishlist
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.854"
+			timeRelativeToTestModuleStartTime="00:05.854"
+			timeWallClock="02:02:54"
+			time="00:05.854"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping7' at 169;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[3]/container[6]//container[@accessiblename='League Of Legends 850 Rp']/link[@accessiblename>'Riot GamesLeague Of Legends']/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']"
+				itempath="?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[3]/container[6]//container[@accessiblename='League Of Legends 850 Rp']/link[@accessiblename>'Riot GamesLeague Of Legends']/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']"
+				fullname="RonwellTaskRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping7"
+				id="42ea33c3a0094aa8930dcff5e61cbc92"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\AddProductsToWishlist.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.928"
+			timeRelativeToTestModuleStartTime="00:06.928"
+			timeWallClock="02:02:55"
+			time="00:06.928"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping8' at 168;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[3]/container[6]//container[@accessiblename>'Extra Günlük Aktivite Ultra']/link[@accessiblename>'KARGO BEDAVA SleepyExtra Günlük']/container[1]/container[@accessiblerole='Grouping']"
+				itempath="?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[3]/container[6]//container[@accessiblename>'Extra Günlük Aktivite Ultra']/link[@accessiblename>'KARGO BEDAVA SleepyExtra Günlük']/container[1]/container[@accessiblerole='Grouping']"
+				fullname="RonwellTaskRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping8"
+				id="0e0a7aae2747494db0eb92c8e0836ff3"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\AddProductsToWishlist.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.486"
+			timeRelativeToTestModuleStartTime="00:07.486"
+			timeWallClock="02:02:56"
+			time="00:07.486"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping9' at 60;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/element[@automationid='147664064']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]//link[@accessiblename='  Favorilerim']/container[@accessiblerole='Grouping']"
+				itempath="element[@automationid='147664064']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]//link[@accessiblename='  Favorilerim']/container[@accessiblerole='Grouping']"
+				fullname="RonwellTaskRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping9"
+				id="63027be668a6457fb173b899456653c1"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\AddProductsToWishlist.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.112"
+			timeRelativeToTestModuleStartTime="00:25.112"
+			timeWallClock="02:03:13"
+			time="00:25.112"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Grouping9' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\AddProductsToWishlist.cs"
+				codeline="91"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.505"
+			timeRelativeToTestModuleStartTime="00:25.505"
+			timeWallClock="02:03:14"
+			time="00:25.505"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping10'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]"
+				itempath="?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]"
+				fullname="RonwellTaskRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping10"
+				id="3213e58c67654ade9ea8b2660189f37a"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\AddProductsToWishlist.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.626"
+			timeRelativeToTestModuleStartTime="00:26.626"
+			timeWallClock="02:03:15"
+			time="00:26.626"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'RonwellTaskRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping10' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'En Trend Ürünler Türkiye''nin']/?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]"
+				itempath="?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]"
+				fullname="RonwellTaskRepository.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping10"
+				id="3213e58c67654ade9ea8b2660189f37a"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\AddProductsToWishlist.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.733"
+			timeRelativeToTestModuleStartTime="00:26.733"
+			timeWallClock="02:03:15"
+			time="00:26.733"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'FavorilerTrendyolGoogleChrome.Grouping1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Favoriler - Trendyol - Google']/?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]/?/?/link[@accessiblename>'Riot GamesLeague Of Legends']/container[1]"
+				itempath="?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]/?/?/link[@accessiblename>'Riot GamesLeague Of Legends']/container[1]"
+				fullname="RonwellTaskRepository.FavorilerTrendyolGoogleChrome.Grouping1"
+				id="d2d4a205959448f1aef8878ded4372bf"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\AddProductsToWishlist.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.881"
+			timeRelativeToTestModuleStartTime="00:26.881"
+			timeWallClock="02:03:15"
+			time="00:26.881"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'RonwellTaskRepository.FavorilerTrendyolGoogleChrome.Grouping1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Favoriler - Trendyol - Google']/?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]/?/?/link[@accessiblename>'Riot GamesLeague Of Legends']/container[1]"
+				itempath="?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]/?/?/link[@accessiblename>'Riot GamesLeague Of Legends']/container[1]"
+				fullname="RonwellTaskRepository.FavorilerTrendyolGoogleChrome.Grouping1"
+				id="d2d4a205959448f1aef8878ded4372bf"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\AddProductsToWishlist.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.991"
+			timeRelativeToTestModuleStartTime="00:26.991"
+			timeWallClock="02:03:15"
+			time="00:26.991"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'FavorilerTrendyolGoogleChrome.Grouping2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Favoriler - Trendyol - Google']/?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]/?/?/link[@accessiblename>'SleepyExtra Günlük Aktivite']/container[1]"
+				itempath="?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]/?/?/link[@accessiblename>'SleepyExtra Günlük Aktivite']/container[1]"
+				fullname="RonwellTaskRepository.FavorilerTrendyolGoogleChrome.Grouping2"
+				id="a738df368c9741a19147b09014d1aa30"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\AddProductsToWishlist.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.098"
+			timeRelativeToTestModuleStartTime="00:27.098"
+			timeWallClock="02:03:15"
+			time="00:27.098"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'RonwellTaskRepository.FavorilerTrendyolGoogleChrome.Grouping2' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Favoriler - Trendyol - Google']/?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]/?/?/link[@accessiblename>'SleepyExtra Günlük Aktivite']/container[1]"
+				itempath="?/?/container[@accessiblename='Favoriler - Trendyol']/container/container[1]/container[3]/container[6]/?/?/link[@accessiblename>'SleepyExtra Günlük Aktivite']/container[1]"
+				fullname="RonwellTaskRepository.FavorilerTrendyolGoogleChrome.Grouping2"
+				id="a738df368c9741a19147b09014d1aa30"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\AddProductsToWishlist.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.208"
+			timeRelativeToTestModuleStartTime="00:27.208"
+			timeWallClock="02:03:15"
+			time="00:27.208"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FavorilerTrendyolGoogleChrome.Pane' at 1899;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Favoriler - Trendyol - Google']/container[@accessiblename>'Favoriler - Trendyol - Google']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]"
+				itempath="container[@accessiblename>'Favoriler - Trendyol - Google']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]"
+				fullname="RonwellTaskRepository.FavorilerTrendyolGoogleChrome.Pane"
+				id="9344f9ca10e24af898a4ebf7e2699802"
+				timeout="60000"
+				codefile="c:\Users\mikai\RonwellTask\RonwellTask\TrendyolTestScenarios\AddProductsToWishlist.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

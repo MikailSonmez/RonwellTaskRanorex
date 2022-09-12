@@ -79,51 +79,44 @@ namespace RonwellTask.TrendyolTestScenarios
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping4'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping4Info, new RecordItemIndex(0));
-            Validate.Exists(repo.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping4Info);
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping4' at Center", repo.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping4Info, new RecordItemIndex(1));
-            repo.EnTrendUEruenlerTuerkiyeninOnlineAl.Grouping4.Touch();
-            Delay.Milliseconds(300);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Üye Ol') on item 'HttpsWwwTrendyolComUyelikcbEqhttps.UEyeOl'.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.UEyeOlInfo, new RecordItemIndex(2));
-            Validate.AttributeEqual(repo.HttpsWwwTrendyolComUyelikcbEqhttps.UEyeOlInfo, "Text", "Üye Ol");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsWwwTrendyolComUyelikcbEqhttps.UEyeOl' at Center.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.UEyeOlInfo, new RecordItemIndex(3));
-            repo.HttpsWwwTrendyolComUyelikcbEqhttps.UEyeOl.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move at {X=1277,Y=116}.", new RecordItemIndex(0));
+            Mouse.MoveTo(1277, 116);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping3'.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping3Info, new RecordItemIndex(4));
-            Validate.AttributeEqual(repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping3Info, "Visible", "True");
-            Delay.Milliseconds(100);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move at {X=1276,Y=219}.", new RecordItemIndex(1));
+            Mouse.MoveTo(1276, 219);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.ComboBox' at 88;26.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.ComboBoxInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click at {X=1276,Y=219}.", new RecordItemIndex(2));
+            Mouse.MoveTo(1276, 219);
+            Mouse.Click(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.ComboBox' at 88;26.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.ComboBoxInfo, new RecordItemIndex(3));
             repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.ComboBox.Click("88;26");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '               ' with focus on 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.ComboBox'.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.ComboBoxInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '               ' with focus on 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.ComboBox'.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.ComboBoxInfo, new RecordItemIndex(4));
             repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.ComboBox.PressKeys("               ");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.Text' at 80;26.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.TextInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.Text' at 80;26.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.TextInfo, new RecordItemIndex(5));
             repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.Text.Click("80;26");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '                     ' with focus on 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.Text'.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.TextInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '                     ' with focus on 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.Text'.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.TextInfo, new RecordItemIndex(6));
             repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.Text.PressKeys("                     ");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.UEYEOL' at 198;20.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.UEYEOLInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.UEYEOL' at 198;20.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.UEYEOLInfo, new RecordItemIndex(7));
             repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping1.UEYEOL.Click("198;20");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping3'.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping3Info, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'HttpsWwwTrendyolComUyelikcbEqhttps.Grouping3'.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping3Info, new RecordItemIndex(8));
             Validate.AttributeEqual(repo.HttpsWwwTrendyolComUyelikcbEqhttps.Grouping3Info, "Visible", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsWwwTrendyolComUyelikcbEqhttps.Pane' at 1891;12.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.PaneInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsWwwTrendyolComUyelikcbEqhttps.Pane' at 1891;12.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.PaneInfo, new RecordItemIndex(9));
             repo.HttpsWwwTrendyolComUyelikcbEqhttps.Pane.Click("1891;12");
             Delay.Milliseconds(0);
             

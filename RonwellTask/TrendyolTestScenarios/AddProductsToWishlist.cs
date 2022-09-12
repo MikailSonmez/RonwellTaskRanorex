@@ -103,8 +103,9 @@ namespace RonwellTask.TrendyolTestScenarios
             Validate.AttributeEqual(repo.FavorilerTrendyolGoogleChrome.Grouping2Info, "Visible", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FavorilerTrendyolGoogleChrome.Pane' at 1899;11.", repo.FavorilerTrendyolGoogleChrome.PaneInfo, new RecordItemIndex(6));
-            repo.FavorilerTrendyolGoogleChrome.Pane.Click("1899;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click at {X=1896,Y=12}.", new RecordItemIndex(6));
+            Mouse.MoveTo(1896, 12);
+            Mouse.Click(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(0);
             
         }
