@@ -4,12 +4,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Ranorex Studio 10.2.0
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RonwellTask", "RonwellTask\RonwellTask.csproj", "{F23E3A85-F821-436A-B60A-A58864946B3D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54ED5275-9416-4104-9115-56D519B52367}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RonwellTask", "RonwellTask\RonwellTask.csproj", "{F23E3A85-F821-436A-B60A-A58864946B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -95,45 +95,45 @@ namespace RonwellTask
             repo.ApplicationUnderTest.UEyeOl.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'ApplicationUnderTest.LoginRegister.LrTitle'.", repo.ApplicationUnderTest.LoginRegister.LrTitleInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HttpsWwwTrendyolComUyelikcbEqhttps.Back1' at 21;13.", repo.HttpsWwwTrendyolComUyelikcbEqhttps.Back1Info, new RecordItemIndex(4));
+            repo.HttpsWwwTrendyolComUyelikcbEqhttps.Back1.Click("21;13");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'ApplicationUnderTest.LoginRegister.LrTitle'.", repo.ApplicationUnderTest.LoginRegister.LrTitleInfo, new RecordItemIndex(5));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LoginRegister.LrTitleInfo, "Enabled", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Valid='True') on item 'ApplicationUnderTest.LoginRegister.LrTitle'.", repo.ApplicationUnderTest.LoginRegister.LrTitleInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Valid='True') on item 'ApplicationUnderTest.LoginRegister.LrTitle'.", repo.ApplicationUnderTest.LoginRegister.LrTitleInfo, new RecordItemIndex(6));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LoginRegister.LrTitleInfo, "Valid", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.LoginRegister.LrTitle'.", repo.ApplicationUnderTest.LoginRegister.LrTitleInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.LoginRegister.LrTitle'.", repo.ApplicationUnderTest.LoginRegister.LrTitleInfo, new RecordItemIndex(7));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LoginRegister.LrTitleInfo, "Visible", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecond'.", repo.ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecondInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecond'.", repo.ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecondInfo, new RecordItemIndex(8));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecondInfo, "Enabled", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Valid='True') on item 'ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecond'.", repo.ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecondInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Valid='True') on item 'ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecond'.", repo.ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecondInfo, new RecordItemIndex(9));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecondInfo, "Valid", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecond'.", repo.ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecondInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecond'.", repo.ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecondInfo, new RecordItemIndex(10));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LoginRegister.ButtonQButtonQButtonMediumQSecondInfo, "Visible", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'ApplicationUnderTest.LoginRegister.LrContainer'.", repo.ApplicationUnderTest.LoginRegister.LrContainerInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'ApplicationUnderTest.LoginRegister.LrContainer'.", repo.ApplicationUnderTest.LoginRegister.LrContainerInfo, new RecordItemIndex(11));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LoginRegister.LrContainerInfo, "Enabled", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Valid='True') on item 'ApplicationUnderTest.LoginRegister.LrContainer'.", repo.ApplicationUnderTest.LoginRegister.LrContainerInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Valid='True') on item 'ApplicationUnderTest.LoginRegister.LrContainer'.", repo.ApplicationUnderTest.LoginRegister.LrContainerInfo, new RecordItemIndex(12));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LoginRegister.LrContainerInfo, "Valid", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.LoginRegister.LrContainer'.", repo.ApplicationUnderTest.LoginRegister.LrContainerInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.LoginRegister.LrContainer'.", repo.ApplicationUnderTest.LoginRegister.LrContainerInfo, new RecordItemIndex(13));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LoginRegister.LrContainerInfo, "Visible", "True");
             Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.LoginEmail' at 210;2.", repo.ApplicationUnderTest.LoginEmailInfo, new RecordItemIndex(13));
-            repo.ApplicationUnderTest.LoginEmail.Click("210;2");
-            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'ApplicationUnderTest.LoginEmail'.", repo.ApplicationUnderTest.LoginEmailInfo, new RecordItemIndex(14));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LoginEmailInfo, "Enabled", "True");

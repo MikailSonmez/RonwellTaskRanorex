@@ -22,27 +22,6 @@ name="RonwellTaskRepository">
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="30d69fce-c37c-429d-a227-0de233919519"
-			name="AccountUserLink"
-			refimgid="e2bc9884-4d96-4903-bdee-ce462af4420c"
-			robustPath=""
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[@class='link account-user']
-			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="62cbee62-fe99-4262-b91e-219313d95011"
-			name="UEyeOl"
-			refimgid="f6874741-462d-473a-89e6-44282fd41deb"
-			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/div[@innertext='Üye Ol']"
-			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//div[@innertext='Üye Ol']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']
-			</item>
-			<item
 			addcaps="unknown,webelement,inputtag"
 			capname="inputtag"
 			id="194f6640-d002-4bde-ba51-95a0ec42ccf1"
@@ -242,6 +221,28 @@ name="RonwellTaskRepository">
 			robustPath="/dom[@domain='www.trendyol.com']/body/div/div/div/div/div/div/div/a/img"
 			searchtimeout="30000ms">
 				/dom[@domain='www.trendyol.com']/body/div/div/div//img
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="b749ad8b-16a0-47b2-989f-53c6cecb72c5"
+			name="AccountUserLink"
+			refimgid="87adc6d6-8b14-40e4-9488-d602e5ff3f44"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="bb34690f-5476-4814-9142-dc8b6358cb8b"
+			name="UEyeOl"
+			refimgid="91863c8e-2894-4d78-bdf5-e11e1262f7a2"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/div[@innertext='Üye Ol']"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//div[@innertext='Üye Ol']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']
 			</item>
 			<basepath>
 				/dom[@domain='www.trendyol.com']
@@ -652,6 +653,17 @@ KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
 			robustPath="/form[@title>'https://www.trendyol.com/']//button[@accessiblename='Back']"
 			searchtimeout="30000ms">
 				/form[@title&gt;'https://www.trendyol.com/']/container[@accessiblename&gt;'Trendyolmilla Pantolon Bol']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/button[@accessiblename='Back']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b23de63b-ff4d-4cef-80e4-68ac53db7093"
+			name="Back1"
+			refimgid="3573de3e-a522-4c77-b00a-2a2b6341b9c5"
+			refpath="/form[@title>'https://www.trendyol.com/']/container/container/container/container[2]/container[1]/toolbar[1]/button[@accessiblename='Back']"
+			robustPath="/form[@title>'https://www.trendyol.com/']//button[@accessiblename='Back']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'https://www.trendyol.com/']/container[@accessiblename&gt;'https://www.trendyol.com/']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/button[@accessiblename='Back']
 			</item>
 			<basepath>
 				/form[@title&gt;'https://www.trendyol.com/']

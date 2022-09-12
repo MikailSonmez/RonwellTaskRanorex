@@ -18,7 +18,6 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="252f4ca0-2db2-4161-8c02-b392964115e1"
 			name="CASE8"
 			ref="f2743932-a006-4ec7-aa54-e988b23de011"
@@ -58,14 +57,12 @@
 			name="TestCase">
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="8928500a-2ddd-4d55-aba1-024d36de6510"
 			name="CASE7"
 			ref="148b254f-6b88-44f8-99bd-1c1693adc8c5"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="9dac5c8e-7347-408d-a9c2-0472f8a048a0"
 			name="CASE6"
 			ref="e2e68f39-6739-4c55-bdbe-e36b10b168b0"
@@ -78,12 +75,15 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="a4aa9613-4617-411e-b2f1-d349d7a2629e"
 			name="CASE1"
 			ref="5fd72bab-f70e-4306-94f4-435423c95f71"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="a9ae1ce0-9a80-4f11-a4ad-1941f66cb506"
+			name="TestScenarios">
+			</smartfoldernode>
 			<testmodule
 			id="b1aea05d-49cc-447c-8393-0c1bfb5e6247"
 			name="CASE3"
@@ -91,14 +91,12 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="b3d1250b-ece5-4949-ac77-33eb8425a619"
 			name="CASE5"
 			ref="82bf8544-4a24-477c-b22a-d955808a0b0c"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="cc7069f9-77e9-41b7-a8fc-276a14568cb6"
 			name="CASE4"
 			ref="61557e7d-5dd0-445d-a19e-19e36a830bea"
@@ -111,7 +109,6 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="ee00f62b-1b45-4935-b5e4-b816a9765579"
 			name="CASE2"
 			ref="7b3ccaf4-7ff3-4b43-9943-e42422f1a830"
@@ -140,38 +137,42 @@
 						id="1904edf4-c4fd-4f41-b6a9-e487ff31b983"
 						name="Recording1">
 						</testmodule>
-						<testmodule
-						id="a4aa9613-4617-411e-b2f1-d349d7a2629e"
-						name="CASE1">
-						</testmodule>
-						<testmodule
-						id="ee00f62b-1b45-4935-b5e4-b816a9765579"
-						name="CASE2">
-						</testmodule>
-						<testmodule
-						id="b1aea05d-49cc-447c-8393-0c1bfb5e6247"
-						name="CASE3">
-						</testmodule>
-						<testmodule
-						id="cc7069f9-77e9-41b7-a8fc-276a14568cb6"
-						name="CASE4">
-						</testmodule>
-						<testmodule
-						id="b3d1250b-ece5-4949-ac77-33eb8425a619"
-						name="CASE5">
-						</testmodule>
-						<testmodule
-						id="9dac5c8e-7347-408d-a9c2-0472f8a048a0"
-						name="CASE6">
-						</testmodule>
-						<testmodule
-						id="8928500a-2ddd-4d55-aba1-024d36de6510"
-						name="CASE7">
-						</testmodule>
-						<testmodule
-						id="252f4ca0-2db2-4161-8c02-b392964115e1"
-						name="CASE8">
-						</testmodule>
+						<smartfoldernode
+						id="a9ae1ce0-9a80-4f11-a4ad-1941f66cb506"
+						name="TestScenarios">
+							<testmodule
+							id="a4aa9613-4617-411e-b2f1-d349d7a2629e"
+							name="CASE1">
+							</testmodule>
+							<testmodule
+							id="ee00f62b-1b45-4935-b5e4-b816a9765579"
+							name="CASE2">
+							</testmodule>
+							<testmodule
+							id="b1aea05d-49cc-447c-8393-0c1bfb5e6247"
+							name="CASE3">
+							</testmodule>
+							<testmodule
+							id="cc7069f9-77e9-41b7-a8fc-276a14568cb6"
+							name="CASE4">
+							</testmodule>
+							<testmodule
+							id="b3d1250b-ece5-4949-ac77-33eb8425a619"
+							name="CASE5">
+							</testmodule>
+							<testmodule
+							id="9dac5c8e-7347-408d-a9c2-0472f8a048a0"
+							name="CASE6">
+							</testmodule>
+							<testmodule
+							id="8928500a-2ddd-4d55-aba1-024d36de6510"
+							name="CASE7">
+							</testmodule>
+							<testmodule
+							id="252f4ca0-2db2-4161-8c02-b392964115e1"
+							name="CASE8">
+							</testmodule>
+						</smartfoldernode>
 						<teardown
 						id="080f3b53-41ce-46e0-adf3-ffeee3232b15"
 						name="teardown">
@@ -196,6 +197,9 @@
 			</testcontainer>
 			<testcontainer
 			id="65cfbfa6-5031-4426-93b9-8d2862499378">
+			</testcontainer>
+			<testcontainer
+			id="a9ae1ce0-9a80-4f11-a4ad-1941f66cb506">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

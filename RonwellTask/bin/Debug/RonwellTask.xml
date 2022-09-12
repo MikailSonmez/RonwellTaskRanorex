@@ -527,6 +527,11 @@
             The HttpsWwwTrendyolComUyelikcbEqhttps folder.
             </summary>
         </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.ErkekButikleriYeniSezonUEruenler">
+            <summary>
+            The ErkekButikleriYeniSezonUEruenler folder.
+            </summary>
+        </member>
         <member name="T:RonwellTask.RonwellTaskRepositoryFolders">
             <summary>
             Inner folder classes.
@@ -550,26 +555,6 @@
         <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
             <summary>
             The Self item info.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.AccountUserLink">
-            <summary>
-            The AccountUserLink item.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.AccountUserLinkInfo">
-            <summary>
-            The AccountUserLink item info.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOl">
-            <summary>
-            The UEyeOl item.
-            </summary>
-        </member>
-        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOlInfo">
-            <summary>
-            The UEyeOl item info.
             </summary>
         </member>
         <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.LoginEmail">
@@ -602,9 +587,84 @@
             The Container item info.
             </summary>
         </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize200200">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize200200 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize200200Info">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize200200 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle">
+            <summary>
+            The SepeteEkle item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkleInfo">
+            <summary>
+            The SepeteEkle item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComTy335ProductMe">
+            <summary>
+            The HttpsCdnDsmcdnComTy335ProductMe item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComTy335ProductMeInfo">
+            <summary>
+            The HttpsCdnDsmcdnComTy335ProductMe item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.Sepetim">
+            <summary>
+            The Sepetim item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.SepetimInfo">
+            <summary>
+            The Sepetim item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.SomeImgTag">
+            <summary>
+            The SomeImgTag item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.SomeImgTagInfo">
+            <summary>
+            The SomeImgTag item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.AccountUserLink">
+            <summary>
+            The AccountUserLink item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.AccountUserLinkInfo">
+            <summary>
+            The AccountUserLink item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
         <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.LoginRegister">
             <summary>
             The LoginRegister folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ApplicationUnderTestAppFolder.PbWrapper1">
+            <summary>
+            The PbWrapper1 folder.
             </summary>
         </member>
         <member name="T:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder">
@@ -675,6 +735,56 @@
         <member name="P:RonwellTask.RonwellTaskRepositoryFolders.LoginRegisterFolder.SocialAccountLoginButtonsInfo">
             <summary>
             The SocialAccountLoginButtons item info.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.PbWrapper1Folder">
+            <summary>
+            The PbWrapper1Folder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.PbWrapper1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PbWrapper1  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.PbWrapper1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.PbWrapper1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.PbWrapper1Folder.PbWrapper">
+            <summary>
+            The PbWrapper item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.PbWrapper1Folder.PbWrapperInfo">
+            <summary>
+            The PbWrapper item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.PbWrapper1Folder.PbBasketItem">
+            <summary>
+            The PbBasketItem item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.PbWrapper1Folder.PbBasketItemInfo">
+            <summary>
+            The PbBasketItem item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.PbWrapper1Folder.PbBasketItem1">
+            <summary>
+            The PbBasketItem1 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.PbWrapper1Folder.PbBasketItem1Info">
+            <summary>
+            The PbBasketItem1 item info.
             </summary>
         </member>
         <member name="T:RonwellTask.RonwellTaskRepositoryFolders.NewIncognitoTabGoogleChromeAppFolder">
@@ -847,6 +957,36 @@
             The Grouping item info.
             </summary>
         </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Hesabım">
+            <summary>
+            The Hesabım item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.HesabımInfo">
+            <summary>
+            The Hesabım item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Grouping1">
+            <summary>
+            The Grouping1 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Grouping1Info">
+            <summary>
+            The Grouping1 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Grouping2">
+            <summary>
+            The Grouping2 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Grouping2Info">
+            <summary>
+            The Grouping2 item info.
+            </summary>
+        </member>
         <member name="T:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder">
             <summary>
             The HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder folder.
@@ -927,6 +1067,26 @@
             The SomeText item info.
             </summary>
         </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Back">
+            <summary>
+            The Back item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.BackInfo">
+            <summary>
+            The Back item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Back1">
+            <summary>
+            The Back1 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Back1Info">
+            <summary>
+            The Back1 item info.
+            </summary>
+        </member>
         <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Grouping1">
             <summary>
             The Grouping1 folder.
@@ -1000,6 +1160,266 @@
         <member name="P:RonwellTask.RonwellTaskRepositoryFolders.Grouping1Folder.TextInfo">
             <summary>
             The Text item info.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder">
+            <summary>
+            The ErkekButikleriYeniSezonUEruenlerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ErkekButikleriYeniSezonUEruenler  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Graphic">
+            <summary>
+            The Graphic item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.GraphicInfo">
+            <summary>
+            The Graphic item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Graphic1">
+            <summary>
+            The Graphic1 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Graphic1Info">
+            <summary>
+            The Graphic1 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.SomeText">
+            <summary>
+            The SomeText item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.SomeTextInfo">
+            <summary>
+            The SomeText item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Back">
+            <summary>
+            The Back item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.BackInfo">
+            <summary>
+            The Back item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Favorilerim">
+            <summary>
+            The Favorilerim item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.FavorilerimInfo">
+            <summary>
+            The Favorilerim item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Grouping">
+            <summary>
+            The Grouping item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.GroupingInfo">
+            <summary>
+            The Grouping item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Graphic4">
+            <summary>
+            The Graphic4 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Graphic4Info">
+            <summary>
+            The Graphic4 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.None2">
+            <summary>
+            The None2 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.None2Info">
+            <summary>
+            The None2 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Link75TLVeUEzeriKargoBedava">
+            <summary>
+            The Link75TLVeUEzeriKargoBedava item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Link75TLVeUEzeriKargoBedavaInfo">
+            <summary>
+            The Link75TLVeUEzeriKargoBedava item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Sepetim">
+            <summary>
+            The Sepetim item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.SepetimInfo">
+            <summary>
+            The Sepetim item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.SepetiOnayla">
+            <summary>
+            The SepetiOnayla item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.SepetiOnaylaInfo">
+            <summary>
+            The SepetiOnayla item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.KaydetVeDevamEt">
+            <summary>
+            The KaydetVeDevamEt item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.KaydetVeDevamEtInfo">
+            <summary>
+            The KaydetVeDevamEt item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Grouping1">
+            <summary>
+            The Grouping1 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.Grouping1Info">
+            <summary>
+            The Grouping1 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.EnTrendUEruenlerTuerkiyeninOnlineAl">
+            <summary>
+            The EnTrendUEruenlerTuerkiyeninOnlineAl folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.ErkekButikleriYeniSezonUEruenlerAppFolder.OEdemeTrendyol">
+            <summary>
+            The OEdemeTrendyol folder.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlFolder1">
+            <summary>
+            The EnTrendUEruenlerTuerkiyeninOnlineAlFolder1 folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlFolder1.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EnTrendUEruenlerTuerkiyeninOnlineAl  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlFolder1.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlFolder1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlFolder1.Document">
+            <summary>
+            The Document item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlFolder1.DocumentInfo">
+            <summary>
+            The Document item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlFolder1.Graphic2">
+            <summary>
+            The Graphic2 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlFolder1.Graphic2Info">
+            <summary>
+            The Graphic2 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlFolder1.Graphic3">
+            <summary>
+            The Graphic3 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlFolder1.Graphic3Info">
+            <summary>
+            The Graphic3 item info.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.OEdemeTrendyolFolder">
+            <summary>
+            The OEdemeTrendyolFolder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.OEdemeTrendyolFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new OEdemeTrendyol  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.OEdemeTrendyolFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.OEdemeTrendyolFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.OEdemeTrendyolFolder.None">
+            <summary>
+            The None item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.OEdemeTrendyolFolder.NoneInfo">
+            <summary>
+            The None item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.OEdemeTrendyolFolder.None3">
+            <summary>
+            The None3 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.OEdemeTrendyolFolder.None3Info">
+            <summary>
+            The None3 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.OEdemeTrendyolFolder.None1">
+            <summary>
+            The None1 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.OEdemeTrendyolFolder.None1Info">
+            <summary>
+            The None1 item info.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

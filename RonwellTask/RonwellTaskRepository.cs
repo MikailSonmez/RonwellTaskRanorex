@@ -168,8 +168,6 @@ namespace RonwellTask
         {
             RonwellTaskRepositoryFolders.LoginRegisterFolder _loginregister;
             RonwellTaskRepositoryFolders.PbWrapper1Folder _pbwrapper1;
-            RepoItemInfo _accountuserlinkInfo;
-            RepoItemInfo _ueyeolInfo;
             RepoItemInfo _loginemailInfo;
             RepoItemInfo _loginpasswordinputInfo;
             RepoItemInfo _containerInfo;
@@ -178,6 +176,8 @@ namespace RonwellTask
             RepoItemInfo _httpscdndsmcdncomty335productmeInfo;
             RepoItemInfo _sepetimInfo;
             RepoItemInfo _someimgtagInfo;
+            RepoItemInfo _accountuserlinkInfo;
+            RepoItemInfo _ueyeolInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -187,8 +187,6 @@ namespace RonwellTask
             {
                 _loginregister = new RonwellTaskRepositoryFolders.LoginRegisterFolder(this);
                 _pbwrapper1 = new RonwellTaskRepositoryFolders.PbWrapper1Folder(this);
-                _accountuserlinkInfo = new RepoItemInfo(this, "AccountUserLink", ".//div[@class='link account-user']", "", 30000, null, "30d69fce-c37c-429d-a227-0de233919519");
-                _ueyeolInfo = new RepoItemInfo(this, "UEyeOl", ".//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']", ".//div[#'account-navigation-container']//div[@innertext='Üye Ol']", 30000, null, "62cbee62-fe99-4262-b91e-219313d95011");
                 _loginemailInfo = new RepoItemInfo(this, "LoginEmail", ".//input[#'login-email']", ".//input[#'login-email']", 30000, null, "194f6640-d002-4bde-ba51-95a0ec42ccf1");
                 _loginpasswordinputInfo = new RepoItemInfo(this, "LoginPasswordInput", ".//input[#'login-password-input']", ".//input[#'login-password-input']", 30000, null, "02f19a24-5ac6-4561-b5cd-9709a4a683cb");
                 _containerInfo = new RepoItemInfo(this, "Container", ".//div[#'container']", ".//div[#'container']", 30000, null, "912f56e3-7f2a-49bd-9386-875ece78ba8c");
@@ -197,6 +195,8 @@ namespace RonwellTask
                 _httpscdndsmcdncomty335productmeInfo = new RepoItemInfo(this, "HttpsCdnDsmcdnComTy335ProductMe", ".//div[#'account-gw-just-for-you']/div/div/div/div[2]/a[@href>'https://www.trendyol.com/']/img[@src='https://cdn.dsmcdn.com//ty335/product/media/images/20220218/13/53030145/116829745/1/1_org.jpg']", ".//div[#'account-gw-just-for-you']//img[@src='https://cdn.dsmcdn.com//ty335/product/media/images/20220218/13/53030145/116829745/1/1_org.jpg']", 30000, null, "feb0d9ca-79b1-447f-ba84-62c1b6aafbd3");
                 _sepetimInfo = new RepoItemInfo(this, "Sepetim", ".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']", ".//div[#'account-navigation-container']//p[@innertext='Sepetim']", 30000, null, "7c4d1e9f-539a-493b-a953-54c272c8f1d2");
                 _someimgtagInfo = new RepoItemInfo(this, "SomeImgTag", "body/div/div/div//img", "body/div/div/div/div/div/div/div/a/img", 30000, null, "733c9ca7-9f90-46ff-9afc-8a4c769b27c8");
+                _accountuserlinkInfo = new RepoItemInfo(this, "AccountUserLink", ".//div[#'account-navigation-container']/div/div[1]/div[1]", ".//div[#'account-navigation-container']/div/div[1]/div[1]", 30000, null, "b749ad8b-16a0-47b2-989f-53c6cecb72c5");
+                _ueyeolInfo = new RepoItemInfo(this, "UEyeOl", ".//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']", ".//div[#'account-navigation-container']//div[@innertext='Üye Ol']", 30000, null, "bb34690f-5476-4814-9142-dc8b6358cb8b");
             }
 
             /// <summary>
@@ -220,54 +220,6 @@ namespace RonwellTask
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The AccountUserLink item.
-            /// </summary>
-            [RepositoryItem("30d69fce-c37c-429d-a227-0de233919519")]
-            public virtual Ranorex.DivTag AccountUserLink
-            {
-                get
-                {
-                    return _accountuserlinkInfo.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The AccountUserLink item info.
-            /// </summary>
-            [RepositoryItemInfo("30d69fce-c37c-429d-a227-0de233919519")]
-            public virtual RepoItemInfo AccountUserLinkInfo
-            {
-                get
-                {
-                    return _accountuserlinkInfo;
-                }
-            }
-
-            /// <summary>
-            /// The UEyeOl item.
-            /// </summary>
-            [RepositoryItem("62cbee62-fe99-4262-b91e-219313d95011")]
-            public virtual Ranorex.DivTag UEyeOl
-            {
-                get
-                {
-                    return _ueyeolInfo.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The UEyeOl item info.
-            /// </summary>
-            [RepositoryItemInfo("62cbee62-fe99-4262-b91e-219313d95011")]
-            public virtual RepoItemInfo UEyeOlInfo
-            {
-                get
-                {
-                    return _ueyeolInfo;
                 }
             }
 
@@ -460,6 +412,54 @@ namespace RonwellTask
                 get
                 {
                     return _someimgtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AccountUserLink item.
+            /// </summary>
+            [RepositoryItem("b749ad8b-16a0-47b2-989f-53c6cecb72c5")]
+            public virtual Ranorex.DivTag AccountUserLink
+            {
+                get
+                {
+                    return _accountuserlinkInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AccountUserLink item info.
+            /// </summary>
+            [RepositoryItemInfo("b749ad8b-16a0-47b2-989f-53c6cecb72c5")]
+            public virtual RepoItemInfo AccountUserLinkInfo
+            {
+                get
+                {
+                    return _accountuserlinkInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UEyeOl item.
+            /// </summary>
+            [RepositoryItem("bb34690f-5476-4814-9142-dc8b6358cb8b")]
+            public virtual Ranorex.DivTag UEyeOl
+            {
+                get
+                {
+                    return _ueyeolInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UEyeOl item info.
+            /// </summary>
+            [RepositoryItemInfo("bb34690f-5476-4814-9142-dc8b6358cb8b")]
+            public virtual RepoItemInfo UEyeOlInfo
+            {
+                get
+                {
+                    return _ueyeolInfo;
                 }
             }
 
@@ -1268,6 +1268,7 @@ namespace RonwellTask
             RepoItemInfo _grouping2Info;
             RepoItemInfo _sometextInfo;
             RepoItemInfo _backInfo;
+            RepoItemInfo _back1Info;
 
             /// <summary>
             /// Creates a new HttpsWwwTrendyolComUyelikcbEqhttps  folder.
@@ -1283,6 +1284,7 @@ namespace RonwellTask
                 _grouping2Info = new RepoItemInfo(this, "Grouping2", "element[@automationid='297962944']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]/container/container[1]/container[@accessiblerole='Grouping']", "?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/container[@accessiblerole='Grouping']/container[1]/container[@accessiblerole='Grouping']", 30000, null, "6e1315e6-f325-46bb-ba1d-4cabdc0c814e");
                 _sometextInfo = new RepoItemInfo(this, "SomeText", "element[@automationid='305291136']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]/container/container[1]//text[@accessiblename='']", ".//text[@accessiblename='']", 30000, null, "c3133043-cc2e-4e6f-9654-ed2b615dcd60");
                 _backInfo = new RepoItemInfo(this, "Back", "container[@accessiblename>'Trendyolmilla Pantolon Bol']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/button[@accessiblename='Back']", ".//button[@accessiblename='Back']", 30000, null, "62e07eb1-2ef9-47a9-b6bc-ed66727651d1");
+                _back1Info = new RepoItemInfo(this, "Back1", "container[@accessiblename>'https://www.trendyol.com/']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/button[@accessiblename='Back']", ".//button[@accessiblename='Back']", 30000, null, "b23de63b-ff4d-4cef-80e4-68ac53db7093");
             }
 
             /// <summary>
@@ -1474,6 +1476,30 @@ namespace RonwellTask
                 get
                 {
                     return _backInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Back1 item.
+            /// </summary>
+            [RepositoryItem("b23de63b-ff4d-4cef-80e4-68ac53db7093")]
+            public virtual Ranorex.Button Back1
+            {
+                get
+                {
+                    return _back1Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Back1 item info.
+            /// </summary>
+            [RepositoryItemInfo("b23de63b-ff4d-4cef-80e4-68ac53db7093")]
+            public virtual RepoItemInfo Back1Info
+            {
+                get
+                {
+                    return _back1Info;
                 }
             }
 
