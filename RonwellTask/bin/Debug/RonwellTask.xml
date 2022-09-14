@@ -157,6 +157,16 @@
             The SepetimTrendyolGoogleChrome folder.
             </summary>
         </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.SuepermarketUEruenButikleriVeFırsatl">
+            <summary>
+            The SuepermarketUEruenButikleriVeFırsatl folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepository.EnTrendUEruenlerTuerkiyeninOnlineAl1">
+            <summary>
+            The EnTrendUEruenlerTuerkiyeninOnlineAl1 folder.
+            </summary>
+        </member>
         <member name="T:RonwellTask.RonwellTaskRepositoryFolders">
             <summary>
             Inner folder classes.
@@ -782,6 +792,16 @@
             The LinkSepetim22 item info.
             </summary>
         </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Element87992384">
+            <summary>
+            The Element87992384 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAlAppFolder.Element87992384Info">
+            <summary>
+            The Element87992384 item info.
+            </summary>
+        </member>
         <member name="T:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder">
             <summary>
             The HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder folder.
@@ -890,6 +910,26 @@
         <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Grouping3Info">
             <summary>
             The Grouping3 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Element87992384">
+            <summary>
+            The Element87992384 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Element87992384Info">
+            <summary>
+            The Element87992384 item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Element341960064">
+            <summary>
+            The Element341960064 item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Element341960064Info">
+            <summary>
+            The Element341960064 item info.
             </summary>
         </member>
         <member name="P:RonwellTask.RonwellTaskRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Grouping1">
@@ -1465,6 +1505,96 @@
         <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder.KaydetVeDevamEtInfo">
             <summary>
             The KaydetVeDevamEt item info.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.SuepermarketUEruenButikleriVeFırsatlAppFolder">
+            <summary>
+            The SuepermarketUEruenButikleriVeFırsatlAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.SuepermarketUEruenButikleriVeFırsatlAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SuepermarketUEruenButikleriVeFırsatl  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SuepermarketUEruenButikleriVeFırsatlAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.SuepermarketUEruenButikleriVeFırsatlAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder">
+            <summary>
+            The EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EnTrendUEruenlerTuerkiyeninOnlineAl1  folder.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.Suepermarket">
+            <summary>
+            The Suepermarket item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.SuepermarketInfo">
+            <summary>
+            The Suepermarket item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.CustomStampBoxWrapper">
+            <summary>
+            The CustomStampBoxWrapper item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.CustomStampBoxWrapperInfo">
+            <summary>
+            The CustomStampBoxWrapper item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.Item">
+            <summary>
+            The Item item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.ItemInfo">
+            <summary>
+            The Item item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.Answer">
+            <summary>
+            The Answer item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.AnswerInfo">
+            <summary>
+            The Answer item info.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.HttpsWwwTrendyolComKbKoycegizYor">
+            <summary>
+            The HttpsWwwTrendyolComKbKoycegizYor item.
+            </summary>
+        </member>
+        <member name="P:RonwellTask.RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder.HttpsWwwTrendyolComKbKoycegizYorInfo">
+            <summary>
+            The HttpsWwwTrendyolComKbKoycegizYor item info.
             </summary>
         </member>
         <member name="T:RonwellTask.TrendyolTestScenarios.AddProductsToCart">

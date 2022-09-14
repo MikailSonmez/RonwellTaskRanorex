@@ -79,6 +79,33 @@ namespace RonwellTask.TrendyolTestScenarios
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl1.Suepermarket' at 68;15.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl1.SuepermarketInfo, new RecordItemIndex(0));
+            repo.EnTrendUEruenlerTuerkiyeninOnlineAl1.Suepermarket.Click("68;15");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl1.CustomStampBoxWrapper' at 93;56.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl1.CustomStampBoxWrapperInfo, new RecordItemIndex(1));
+            repo.EnTrendUEruenlerTuerkiyeninOnlineAl1.CustomStampBoxWrapper.Click("93;56");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EnTrendUEruenlerTuerkiyeninOnlineAl1.HttpsWwwTrendyolComKbKoycegizYor' at 160;9.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl1.HttpsWwwTrendyolComKbKoycegizYorInfo, new RecordItemIndex(2));
+            repo.EnTrendUEruenlerTuerkiyeninOnlineAl1.HttpsWwwTrendyolComKbKoycegizYor.Click("160;9");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl1.Item'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl1.ItemInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.EnTrendUEruenlerTuerkiyeninOnlineAl1.ItemInfo, "Visible", "True");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'EnTrendUEruenlerTuerkiyeninOnlineAl1.Answer'.", repo.EnTrendUEruenlerTuerkiyeninOnlineAl1.AnswerInfo, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.EnTrendUEruenlerTuerkiyeninOnlineAl1.AnswerInfo, "Visible", "True");
+            Delay.Milliseconds(100);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(5));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click at {X=1896,Y=12}.", new RecordItemIndex(6));
+            Mouse.MoveTo(1896, 12);
+            Mouse.Click(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

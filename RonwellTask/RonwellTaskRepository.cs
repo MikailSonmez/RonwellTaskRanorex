@@ -36,6 +36,8 @@ namespace RonwellTask
         RonwellTaskRepositoryFolders.SleepyExtraGuenluekAktiviteUltraPakAppFolder _sleepyextraguenluekaktiviteultrapak;
         RonwellTaskRepositoryFolders.FavorilerTrendyolGoogleChromeAppFolder _favorilertrendyolgooglechrome;
         RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder _sepetimtrendyolgooglechrome;
+        RonwellTaskRepositoryFolders.SuepermarketUEruenButikleriVeFırsatlAppFolder _suepermarketueruenbutiklerivefırsatl;
+        RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder _entrendueruenlertuerkiyeninonlineal1;
         RepoItemInfo _girişyapInfo;
 
         /// <summary>
@@ -62,6 +64,8 @@ namespace RonwellTask
             _sleepyextraguenluekaktiviteultrapak = new RonwellTaskRepositoryFolders.SleepyExtraGuenluekAktiviteUltraPakAppFolder(this);
             _favorilertrendyolgooglechrome = new RonwellTaskRepositoryFolders.FavorilerTrendyolGoogleChromeAppFolder(this);
             _sepetimtrendyolgooglechrome = new RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder(this);
+            _suepermarketueruenbutiklerivefırsatl = new RonwellTaskRepositoryFolders.SuepermarketUEruenButikleriVeFırsatlAppFolder(this);
+            _entrendueruenlertuerkiyeninonlineal1 = new RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder(this);
             _girişyapInfo = new RepoItemInfo(this, "GirişYap", "/form[@title>'https://www.trendyol.com/']/element[@automationid='305295744']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]/container/container[1]//text[@accessiblename='Giriş Yap']", 30000, null, "8fab4b6a-3ae6-44d7-abe3-ce14a85fac25");
         }
 
@@ -184,6 +188,24 @@ namespace RonwellTask
         public virtual RonwellTaskRepositoryFolders.SepetimTrendyolGoogleChromeAppFolder SepetimTrendyolGoogleChrome
         {
             get { return _sepetimtrendyolgooglechrome; }
+        }
+
+        /// <summary>
+        /// The SuepermarketUEruenButikleriVeFırsatl folder.
+        /// </summary>
+        [RepositoryFolder("f9205b8c-b7f3-4d6a-a22b-2e4586cdfc59")]
+        public virtual RonwellTaskRepositoryFolders.SuepermarketUEruenButikleriVeFırsatlAppFolder SuepermarketUEruenButikleriVeFırsatl
+        {
+            get { return _suepermarketueruenbutiklerivefırsatl; }
+        }
+
+        /// <summary>
+        /// The EnTrendUEruenlerTuerkiyeninOnlineAl1 folder.
+        /// </summary>
+        [RepositoryFolder("813fea6e-c760-410a-ab78-4b2a621d8d25")]
+        public virtual RonwellTaskRepositoryFolders.EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder EnTrendUEruenlerTuerkiyeninOnlineAl1
+        {
+            get { return _entrendueruenlertuerkiyeninonlineal1; }
         }
     }
 
@@ -1020,6 +1042,7 @@ namespace RonwellTask
             RepoItemInfo _oedemeyapInfo;
             RepoItemInfo _grouping11Info;
             RepoItemInfo _linksepetim22Info;
+            RepoItemInfo _element87992384Info;
 
             /// <summary>
             /// Creates a new EnTrendUEruenlerTuerkiyeninOnlineAl  folder.
@@ -1054,6 +1077,7 @@ namespace RonwellTask
                 _oedemeyapInfo = new RepoItemInfo(this, "OEdemeYap", "?/?/container[@accessiblename='Ödeme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Ödeme Yap']", ".//container[@accessiblerole='Grouping']/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Ödeme Yap']", 30000, null, "08bdafb2-93df-4c73-8302-faeb4df41635");
                 _grouping11Info = new RepoItemInfo(this, "Grouping11", "element[@automationid='200849408']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]/container/container[1]/container[@accessiblerole='Grouping']", "?/?/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container[@accessiblerole='Grouping']/container[@accessiblerole='Grouping']/container[2]/container[@accessiblerole='Grouping']/container[1]/container[@accessiblerole='Grouping']", 30000, null, "236d0753-2fc6-4f4b-a0b4-4e36312eb90a");
                 _linksepetim22Info = new RepoItemInfo(this, "LinkSepetim22", "element[@automationid='73598400']/container[@accessiblename>'En Trend Ürünler Türkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='  Sepetim 2']", ".//link[@accessiblename='  Sepetim 2']", 30000, null, "2352ad2b-0073-4e15-8366-3adf4ebaaeb7");
+                _element87992384Info = new RepoItemInfo(this, "Element87992384", "element[@automationid='87992384']", "element[@automationid='87992384']", 30000, null, "6480e451-0b36-43d9-b1e1-d7b6f2d7ab75");
             }
 
             /// <summary>
@@ -1727,6 +1751,30 @@ namespace RonwellTask
                     return _linksepetim22Info;
                 }
             }
+
+            /// <summary>
+            /// The Element87992384 item.
+            /// </summary>
+            [RepositoryItem("6480e451-0b36-43d9-b1e1-d7b6f2d7ab75")]
+            public virtual Ranorex.Unknown Element87992384
+            {
+                get
+                {
+                    return _element87992384Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element87992384 item info.
+            /// </summary>
+            [RepositoryItemInfo("6480e451-0b36-43d9-b1e1-d7b6f2d7ab75")]
+            public virtual RepoItemInfo Element87992384Info
+            {
+                get
+                {
+                    return _element87992384Info;
+                }
+            }
         }
 
         /// <summary>
@@ -1745,6 +1793,8 @@ namespace RonwellTask
             RepoItemInfo _backInfo;
             RepoItemInfo _back1Info;
             RepoItemInfo _grouping3Info;
+            RepoItemInfo _element87992384Info;
+            RepoItemInfo _element341960064Info;
 
             /// <summary>
             /// Creates a new HttpsWwwTrendyolComUyelikcbEqhttps  folder.
@@ -1762,6 +1812,8 @@ namespace RonwellTask
                 _backInfo = new RepoItemInfo(this, "Back", "container[@accessiblename>'Trendyolmilla Pantolon Bol']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/button[@accessiblename='Back']", ".//button[@accessiblename='Back']", 30000, null, "62e07eb1-2ef9-47a9-b6bc-ed66727651d1");
                 _back1Info = new RepoItemInfo(this, "Back1", "container[@accessiblename>'https://www.trendyol.com/']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/button[@accessiblename='Back']", ".//button[@accessiblename='Back']", 30000, null, "b23de63b-ff4d-4cef-80e4-68ac53db7093");
                 _grouping3Info = new RepoItemInfo(this, "Grouping3", "element/container[@accessiblerole='Document']/container[1]/container[3]", "element/container[@accessiblerole='Document']/container[1]/container[3]", 30000, null, "6d39b574-4b21-4765-b07b-9f6f65b84ec8");
+                _element87992384Info = new RepoItemInfo(this, "Element87992384", "element[@automationid='87992384']", "element[@automationid='87992384']", 30000, null, "78fce93d-018f-457c-8fbe-48aa1c9e2170");
+                _element341960064Info = new RepoItemInfo(this, "Element341960064", "element[@automationid='341960064']", "element[@automationid='341960064']", 30000, null, "ae859c7c-c3bf-47a4-97d6-1227f9cd8a34");
             }
 
             /// <summary>
@@ -2001,6 +2053,54 @@ namespace RonwellTask
                 get
                 {
                     return _grouping3Info;
+                }
+            }
+
+            /// <summary>
+            /// The Element87992384 item.
+            /// </summary>
+            [RepositoryItem("78fce93d-018f-457c-8fbe-48aa1c9e2170")]
+            public virtual Ranorex.Unknown Element87992384
+            {
+                get
+                {
+                    return _element87992384Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element87992384 item info.
+            /// </summary>
+            [RepositoryItemInfo("78fce93d-018f-457c-8fbe-48aa1c9e2170")]
+            public virtual RepoItemInfo Element87992384Info
+            {
+                get
+                {
+                    return _element87992384Info;
+                }
+            }
+
+            /// <summary>
+            /// The Element341960064 item.
+            /// </summary>
+            [RepositoryItem("ae859c7c-c3bf-47a4-97d6-1227f9cd8a34")]
+            public virtual Ranorex.Unknown Element341960064
+            {
+                get
+                {
+                    return _element341960064Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element341960064 item info.
+            /// </summary>
+            [RepositoryItemInfo("ae859c7c-c3bf-47a4-97d6-1227f9cd8a34")]
+            public virtual RepoItemInfo Element341960064Info
+            {
+                get
+                {
+                    return _element341960064Info;
                 }
             }
 
@@ -3404,6 +3504,216 @@ namespace RonwellTask
                 get
                 {
                     return _kaydetvedevametInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SuepermarketUEruenButikleriVeFırsatlAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("f9205b8c-b7f3-4d6a-a22b-2e4586cdfc59")]
+        public partial class SuepermarketUEruenButikleriVeFırsatlAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new SuepermarketUEruenButikleriVeFırsatl  folder.
+            /// </summary>
+            public SuepermarketUEruenButikleriVeFırsatlAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SuepermarketUEruenButikleriVeFırsatl", "/form[@title>'Süpermarket Ürün Butikleri']", parentFolder, 30000, null, true, "f9205b8c-b7f3-4d6a-a22b-2e4586cdfc59", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("f9205b8c-b7f3-4d6a-a22b-2e4586cdfc59")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("f9205b8c-b7f3-4d6a-a22b-2e4586cdfc59")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("813fea6e-c760-410a-ab78-4b2a621d8d25")]
+        public partial class EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _suepermarketInfo;
+            RepoItemInfo _customstampboxwrapperInfo;
+            RepoItemInfo _itemInfo;
+            RepoItemInfo _answerInfo;
+            RepoItemInfo _httpswwwtrendyolcomkbkoycegizyorInfo;
+
+            /// <summary>
+            /// Creates a new EnTrendUEruenlerTuerkiyeninOnlineAl1  folder.
+            /// </summary>
+            public EnTrendUEruenlerTuerkiyeninOnlineAl1AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("EnTrendUEruenlerTuerkiyeninOnlineAl1", "/dom[@domain='www.trendyol.com']", parentFolder, 30000, null, false, "813fea6e-c760-410a-ab78-4b2a621d8d25", "")
+            {
+                _suepermarketInfo = new RepoItemInfo(this, "Suepermarket", ".//div[#'navigation-wrapper']/nav//a[@innertext='Süpermarket']", ".//div[#'navigation-wrapper']//a[@innertext='Süpermarket']", 30000, null, "6c3345c8-dcd3-472a-8bde-20a2a8d91549");
+                _customstampboxwrapperInfo = new RepoItemInfo(this, "CustomStampBoxWrapper", ".//div[#'browsing-gw-homepage']/div/div/div/article[5]/div/div/div[3]/div[2]/div[@title='Karadut Özü 1000 g']/a[@href>'https://www.trendyol.com/']/div[1]/div/div[2]", ".//div[#'browsing-gw-homepage']//div[@title='Karadut Özü 1000 g']/a[@href>'https://www.trendyol.com/']/div[1]/div/div[2]", 30000, null, "bdd1e6ce-3855-4f7a-8040-64b39688d717");
+                _itemInfo = new RepoItemInfo(this, "Item", ".//div[#'questions-and-answers-app']/div/div/div/div[2]/div[3]/div/div[2]/div[1]", ".//div[#'questions-and-answers-app']/div/div/div/div[2]/div[3]/div/div[2]/div[1]", 30000, null, "aaebaa9d-6654-4f1e-b19b-f393269fd165");
+                _answerInfo = new RepoItemInfo(this, "Answer", ".//div[#'questions-and-answers-app']/div/div/div/div[2]/div[3]/div/div[2]/div[2]", ".//div[#'questions-and-answers-app']/div/div/div/div[2]/div[3]/div/div[2]/div[2]", 30000, null, "64036ee6-945c-4b9d-9df4-2ebc59fe541f");
+                _httpswwwtrendyolcomkbkoycegizyorInfo = new RepoItemInfo(this, "HttpsWwwTrendyolComKbKoycegizYor", ".//main[#'product-detail-app']/div/div[2]/div[2]/section/a[2]", ".//main[#'product-detail-app']/div/div[2]/div[2]/section/a[2]", 30000, null, "29de2412-a298-4647-bdf5-5cfda626a015");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("813fea6e-c760-410a-ab78-4b2a621d8d25")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("813fea6e-c760-410a-ab78-4b2a621d8d25")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Suepermarket item.
+            /// </summary>
+            [RepositoryItem("6c3345c8-dcd3-472a-8bde-20a2a8d91549")]
+            public virtual Ranorex.ATag Suepermarket
+            {
+                get
+                {
+                    return _suepermarketInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Suepermarket item info.
+            /// </summary>
+            [RepositoryItemInfo("6c3345c8-dcd3-472a-8bde-20a2a8d91549")]
+            public virtual RepoItemInfo SuepermarketInfo
+            {
+                get
+                {
+                    return _suepermarketInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CustomStampBoxWrapper item.
+            /// </summary>
+            [RepositoryItem("bdd1e6ce-3855-4f7a-8040-64b39688d717")]
+            public virtual Ranorex.DivTag CustomStampBoxWrapper
+            {
+                get
+                {
+                    return _customstampboxwrapperInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CustomStampBoxWrapper item info.
+            /// </summary>
+            [RepositoryItemInfo("bdd1e6ce-3855-4f7a-8040-64b39688d717")]
+            public virtual RepoItemInfo CustomStampBoxWrapperInfo
+            {
+                get
+                {
+                    return _customstampboxwrapperInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Item item.
+            /// </summary>
+            [RepositoryItem("aaebaa9d-6654-4f1e-b19b-f393269fd165")]
+            public virtual Ranorex.DivTag Item
+            {
+                get
+                {
+                    return _itemInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Item item info.
+            /// </summary>
+            [RepositoryItemInfo("aaebaa9d-6654-4f1e-b19b-f393269fd165")]
+            public virtual RepoItemInfo ItemInfo
+            {
+                get
+                {
+                    return _itemInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Answer item.
+            /// </summary>
+            [RepositoryItem("64036ee6-945c-4b9d-9df4-2ebc59fe541f")]
+            public virtual Ranorex.DivTag Answer
+            {
+                get
+                {
+                    return _answerInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Answer item info.
+            /// </summary>
+            [RepositoryItemInfo("64036ee6-945c-4b9d-9df4-2ebc59fe541f")]
+            public virtual RepoItemInfo AnswerInfo
+            {
+                get
+                {
+                    return _answerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwTrendyolComKbKoycegizYor item.
+            /// </summary>
+            [RepositoryItem("29de2412-a298-4647-bdf5-5cfda626a015")]
+            public virtual Ranorex.ATag HttpsWwwTrendyolComKbKoycegizYor
+            {
+                get
+                {
+                    return _httpswwwtrendyolcomkbkoycegizyorInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwTrendyolComKbKoycegizYor item info.
+            /// </summary>
+            [RepositoryItemInfo("29de2412-a298-4647-bdf5-5cfda626a015")]
+            public virtual RepoItemInfo HttpsWwwTrendyolComKbKoycegizYorInfo
+            {
+                get
+                {
+                    return _httpswwwtrendyolcomkbkoycegizyorInfo;
                 }
             }
         }

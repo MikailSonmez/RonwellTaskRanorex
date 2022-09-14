@@ -97,7 +97,6 @@ mode="Global">
 					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/element[@automationid='73598400']/container[@accessiblename&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']/container[1]/container[1]/container/container[@accessiblerole='Grouping']/container[2]//link[@accessiblename='&#59648; &#59736; Sepetim 2']
 				</path>
 				<robustPath>
-					/form[@title&gt;'En Trend &#220;r&#252;nler T&#252;rkiye''nin']//link[@accessiblename='&#59648; &#59736; Sepetim 2']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -221,7 +220,6 @@ BRRRQAUUUUAFFFFABRRRQAUUUUAf/9k=
 					/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='Sepetim - Trendyol']/container[1]/container[3]/container[@accessiblerole='Grouping']/container[16]/link[1]/text[@accessiblename='Sepeti Onayla']
 				</path>
 				<robustPath>
-					/form[@title&gt;'Sepetim - Trendyol - Google']//text[@accessiblename='Sepeti Onayla']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -344,7 +342,6 @@ ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
 					/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='&#214;deme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Kaydet ve Devam Et']
 				</path>
 				<robustPath>
-					/form[@title&gt;'&#214;deme - Trendyol - Google']//container[@accessiblerole='Grouping']/container[1]/container[3]/container[3]/container[5]/button[@accessiblename='Kaydet ve Devam Et']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -654,7 +651,6 @@ AKKKKAP/2Q==
 					/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='&#214;deme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='&#214;deme Yap']
 				</path>
 				<robustPath>
-					/form[@title&gt;'&#214;deme - Trendyol - Google']//button[@accessiblename='&#214;deme Yap']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -927,7 +923,6 @@ FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
 					/form[@title&gt;'Sepetim - Trendyol - Google']/?/?/container[@accessiblename='&#214;deme - Trendyol']/container/container[1]/container[1]/container[3]/container[3]/container[1]/button[@accessiblename='&#214;deme Yap']
 				</path>
 				<robustPath>
-					/form[@title&gt;'&#214;deme - Trendyol - Google']//button[@accessiblename='&#214;deme Yap']
 				</robustPath>
 			</info>
 			<matchname>
